@@ -1,0 +1,2714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D204921828E79A28005B75DC /* View+ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921728E79A28005B75DC /* View+ConditionalModifier.swift */; };
+		D204921C28E7A0A2005B75DC /* NSImage+Png.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921B28E7A0A2005B75DC /* NSImage+Png.swift */; };
+		D2098B092CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B082CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift */; };
+		D2098B0A2CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B082CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift */; };
+		D2098B0D2CD6BA0A000D9D4A /* AppStateManager_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B0C2CD6BA0A000D9D4A /* AppStateManager_iOS.swift */; };
+		D2098B0E2CD6BA0A000D9D4A /* AppStateManager_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B0C2CD6BA0A000D9D4A /* AppStateManager_iOS.swift */; };
+		D20B95412CFE19840082A547 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B95402CFE19840082A547 /* UpsellButton.swift */; };
+		D20B95422CFE19840082A547 /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B95402CFE19840082A547 /* UpsellButton.swift */; };
+		D20B954A2CFE61FB0082A547 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D20B95492CFE61FB0082A547 /* Localizable.xcstrings */; };
+		D20B954B2CFE61FB0082A547 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D20B95492CFE61FB0082A547 /* Localizable.xcstrings */; };
+		D20BB4FA2912BDC600BC9A24 /* UpgradeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4F92912BDC600BC9A24 /* UpgradeButtonView.swift */; };
+		D20BB4FB2912BDC600BC9A24 /* UpgradeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4F92912BDC600BC9A24 /* UpgradeButtonView.swift */; };
+		D20BB4FD2912BE6F00BC9A24 /* UpgradeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4FC2912BE6F00BC9A24 /* UpgradeButtonStyle.swift */; };
+		D20BB4FE2912BE6F00BC9A24 /* UpgradeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4FC2912BE6F00BC9A24 /* UpgradeButtonStyle.swift */; };
+		D20DF8CE2CDBE30F00BBE4DF /* UIView+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20DF8CD2CDBE30F00BBE4DF /* UIView+Rotate.swift */; };
+		D20DF8CF2CDBE30F00BBE4DF /* UIView+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20DF8CD2CDBE30F00BBE4DF /* UIView+Rotate.swift */; };
+		D20FFF1D29F59D1E0022ACA2 /* DropHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F963E29C7308C003051C0 /* DropHandler.swift */; };
+		D20FFF1E29F59D5E0022ACA2 /* ReorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F964129C732DC003051C0 /* ReorderButton.swift */; };
+		D21987192D09836600E76B4F /* UserDefaults+CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987182D09836600E76B4F /* UserDefaults+CustomObject.swift */; };
+		D219871A2D09836600E76B4F /* UserDefaults+CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987182D09836600E76B4F /* UserDefaults+CustomObject.swift */; };
+		D21987442D099A0500E76B4F /* SettingsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED028E7474200448803 /* SettingsPanelView.swift */; };
+		D21987452D099A0500E76B4F /* TraitModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C8D2CCE4AA900C6AB1D /* TraitModel_iOS.swift */; };
+		D21987462D099A0500E76B4F /* ReorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F964129C732DC003051C0 /* ReorderButton.swift */; };
+		D21987492D099A0500E76B4F /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEE28E75E1E00448803 /* Color+Random.swift */; };
+		D219874A2D099A0500E76B4F /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32432CEF116400FA8C4F /* SignInButton.swift */; };
+		D219874B2D099A0500E76B4F /* NftRenderer_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F8B2CC0156C00CF6CF4 /* NftRenderer_macOS.swift */; };
+		D219874C2D099A0500E76B4F /* UIView+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20DF8CD2CDBE30F00BBE4DF /* UIView+Rotate.swift */; };
+		D219874D2D099A0500E76B4F /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E8E1E2911F35200E5C3E4 /* AppVersion.swift */; };
+		D219874E2D099A0500E76B4F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32362CEF018400FA8C4F /* User.swift */; };
+		D219874F2D099A0500E76B4F /* CanvasTraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEC28E7579100448803 /* CanvasTraitImageView_macOS.swift */; };
+		D21987502D099A0500E76B4F /* TraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1CA12CCEA94600C6AB1D /* TraitImageView_macOS.swift */; };
+		D21987512D099A0500E76B4F /* UIApplication+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26446322CC3738B003249DC /* UIApplication+Window.swift */; };
+		D21987522D099A0500E76B4F /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28319A02CC6178E00EC041C /* PhotosPickerView.swift */; };
+		D21987532D099A0500E76B4F /* CanvasViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D562CD60C69005589CE /* CanvasViewModel_iOS.swift */; };
+		D21987542D099A0500E76B4F /* MainView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616ABB28E69AE000E70104 /* MainView_iOS.swift */; };
+		D21987552D099A0500E76B4F /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901728FD06A200AB5711 /* Binding+Optional.swift */; };
+		D21987562D099A0500E76B4F /* TraitEditMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6C2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift */; };
+		D21987572D099A0500E76B4F /* NumberOfItemsInputView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F090222905210E00AB5711 /* NumberOfItemsInputView_iOS.swift */; };
+		D21987582D099A0500E76B4F /* FilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26446352CC61063003249DC /* FilePickerView.swift */; };
+		D21987592D099A0500E76B4F /* SubscriptionService_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C71F6A2CF5060400BE23A3 /* SubscriptionService_iOS.swift */; };
+		D219875A2D099A0500E76B4F /* NftRenderer_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F8D2CC0158D00CF6CF4 /* NftRenderer_iOS.swift */; };
+		D219875B2D099A0500E76B4F /* AppStateManager_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B0C2CD6BA0A000D9D4A /* AppStateManager_iOS.swift */; };
+		D219875C2D099A0500E76B4F /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28319A62CC61CFF00EC041C /* URL+Filename.swift */; };
+		D219875D2D099A0500E76B4F /* ContentView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DB2CF143860087BCA8 /* ContentView_iOS.swift */; };
+		D219875E2D099A0500E76B4F /* ImagePickerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEFA28E77A9700448803 /* ImagePickerButtonStyle.swift */; };
+		D21987602D099A0500E76B4F /* NSImage+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902D29054E2B00AB5711 /* NSImage+CGImage.swift */; };
+		D21987612D099A0500E76B4F /* DropHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F963E29C7308C003051C0 /* DropHandler.swift */; };
+		D21987622D099A0500E76B4F /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AA92911B11C008E861E /* Color+Palette.swift */; };
+		D21987632D099A0500E76B4F /* TraitSettingsMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D612CD64F5C005589CE /* TraitSettingsMenu_iOS.swift */; };
+		D21987642D099A0500E76B4F /* MetadataExporter_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A2A2CFAFAEF0064B775 /* MetadataExporter_iOS.swift */; };
+		D21987652D099A0500E76B4F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32492CEF136000FA8C4F /* Color+Hex.swift */; };
+		D21987662D099A0500E76B4F /* ImagesGridView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3663228F5464F009C1981 /* ImagesGridView_macOS.swift */; };
+		D21987672D099A0500E76B4F /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF828E779B500448803 /* ImagePickerView.swift */; };
+		D21987682D099A0500E76B4F /* NFTPort.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1829FFFA86005CC925 /* NFTPort.Error.swift */; };
+		D21987692D099A0500E76B4F /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CF2CF136510087BCA8 /* OnboardingView.PageView_iOS.swift */; };
+		D219876A2D099A0500E76B4F /* String+Nonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C42CF11EB90087BCA8 /* String+Nonce.swift */; };
+		D219876B2D099A0500E76B4F /* AddTraitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDF28E7488400448803 /* AddTraitButton.swift */; };
+		D219876C2D099A0500E76B4F /* NFTMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508B22A1E84E200CE562F /* NFTMetadata.swift */; };
+		D219876D2D099A0500E76B4F /* ImagesGridView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9A2CCEA51500C6AB1D /* ImagesGridView_iOS.swift */; };
+		D219876E2D099A0500E76B4F /* TraitsPanelView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECC28E746FB00448803 /* TraitsPanelView_macOS.swift */; };
+		D219876F2D099A0500E76B4F /* TraitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902B29053C1A00AB5711 /* TraitGenerator.swift */; };
+		D21987702D099A0500E76B4F /* UIDevice+Convenience_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A242CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift */; };
+		D21987712D099A0500E76B4F /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0828E7842E00540103 /* Image+SFSymbols.swift */; };
+		D21987722D099A0500E76B4F /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF528E7705600448803 /* BigActionButtonStyle.swift */; };
+		D21987732D099A0500E76B4F /* MagnifyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5A2CD60EF1005589CE /* MagnifyMenuView.swift */; };
+		D21987742D099A0500E76B4F /* LootBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616AB928E69AE000E70104 /* LootBoxApp.swift */; };
+		D21987752D099A0500E76B4F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1B29FFFED5005CC925 /* Logger.swift */; };
+		D21987762D099A0500E76B4F /* UserDefaults+CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987182D09836600E76B4F /* UserDefaults+CustomObject.swift */; };
+		D21987772D099A0500E76B4F /* ImageViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A822AF2CD4B5EE00294C56 /* ImageViewModel_iOS.swift */; };
+		D21987782D099A0500E76B4F /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CB2CF136150087BCA8 /* OnboardingView_iOS.swift */; };
+		D21987792D099A0500E76B4F /* NFTPort.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1529FFFA08005CC925 /* NFTPort.Response.swift */; };
+		D219877A2D099A0500E76B4F /* UpgradeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4F92912BDC600BC9A24 /* UpgradeButtonView.swift */; };
+		D219877C2D099A0500E76B4F /* Error+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AAB2911C6E0008E861E /* Error+Domain.swift */; };
+		D219877D2D099A0500E76B4F /* Font+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEE528E7491000448803 /* Font+Pallete.swift */; };
+		D219877E2D099A0500E76B4F /* ImageViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEA28E74DDD00448803 /* ImageViewModel_macOS.swift */; };
+		D219877F2D099A0500E76B4F /* Web3Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508BB2A1E952800CE562F /* Web3Utils.swift */; };
+		D21987812D099A0500E76B4F /* View+ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921728E79A28005B75DC /* View+ConditionalModifier.swift */; };
+		D21987822D099A0500E76B4F /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D692CD658E3005589CE /* SettingsMenu.swift */; };
+		D21987832D099A0500E76B4F /* View+Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5D2CD62402005589CE /* View+Tile.swift */; };
+		D21987842D099A0500E76B4F /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3446D29BBA2AA003D8E66 /* Analytics.swift */; };
+		D21987852D099A0500E76B4F /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB324E2CEF178600FA8C4F /* Separator.swift */; };
+		D21987862D099A0500E76B4F /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32402CEF073800FA8C4F /* Namespace.swift */; };
+		D21987872D099A0500E76B4F /* TraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9E2CCEA55C00C6AB1D /* TraitImageView_iOS.swift */; };
+		D21987882D099A0500E76B4F /* NSImage+Png.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921B28E7A0A2005B75DC /* NSImage+Png.swift */; };
+		D21987892D099A0500E76B4F /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0628E7839200540103 /* CloseButtonView.swift */; };
+		D219878A2D099A0500E76B4F /* EditMoreMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D652CD65171005589CE /* EditMoreMenu_iOS.swift */; };
+		D219878B2D099A0500E76B4F /* TraitEditHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0B7082CE008B8002419A0 /* TraitEditHUD.swift */; };
+		D219878C2D099A0500E76B4F /* AppStateManager.ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32332CEF016000FA8C4F /* AppStateManager.ScreenType.swift */; };
+		D219878D2D099A0500E76B4F /* String+Sha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C72CF11EE20087BCA8 /* String+Sha256.swift */; };
+		D219878E2D099A0500E76B4F /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220D82CF141660087BCA8 /* Onboarding.Dots.swift */; };
+		D219878F2D099A0500E76B4F /* LayerPositionStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF328E764F400448803 /* LayerPositionStepperView.swift */; };
+		D21987902D099A0500E76B4F /* View+NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901E29051EAB00AB5711 /* View+NSWindow.swift */; };
+		D21987912D099A0500E76B4F /* AppStateManager_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED528E7479100448803 /* AppStateManager_macOS.swift */; };
+		D21987922D099A0500E76B4F /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B95402CFE19840082A547 /* UpsellButton.swift */; };
+		D21987932D099A0500E76B4F /* CanvasViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BE28F3297F00296E0E /* CanvasViewModel_macOS.swift */; };
+		D21987942D099A0500E76B4F /* NftMinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1E2A0015FD005CC925 /* NftMinter.swift */; };
+		D21987952D099A0500E76B4F /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BA28F2993A00296E0E /* Array+Remove.swift */; };
+		D21987962D099A0500E76B4F /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E985D02CFB23650036D2E4 /* View+Placeholder.swift */; };
+		D21987972D099A0500E76B4F /* View+Navigation_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32512CEF17C200FA8C4F /* View+Navigation_iOS.swift */; };
+		D21987982D099A0500E76B4F /* Array+SafeAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287B628EFF40C00296E0E /* Array+SafeAccess.swift */; };
+		D21987992D099A0500E76B4F /* TraitsViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C942CCE75E600C6AB1D /* TraitsViewModel_iOS.swift */; };
+		D219879A2D099A0500E76B4F /* CanvasTraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6F2CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift */; };
+		D219879B2D099A0500E76B4F /* NFTPortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F0F29FFF843005CC925 /* NFTPortService.swift */; };
+		D219879C2D099A0500E76B4F /* OddsSliderView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFEAF52CD3612E004E4557 /* OddsSliderView_iOS.swift */; };
+		D219879D2D099A0500E76B4F /* UpgradeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4FC2912BE6F00BC9A24 /* UpgradeButtonStyle.swift */; };
+		D219879E2D099A0500E76B4F /* OddsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDC28E7486B00448803 /* OddsSliderView.swift */; };
+		D219879F2D099A0500E76B4F /* Image+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32462CEF12CB00FA8C4F /* Image+Pallete.swift */; };
+		D21987A02D099A0500E76B4F /* TraitView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECE28E7470900448803 /* TraitView_macOS.swift */; };
+		D21987A12D099A0500E76B4F /* TraitModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDA28E747F900448803 /* TraitModel_macOS.swift */; };
+		D21987A22D099A0500E76B4F /* LinearGradient+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DF2CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift */; };
+		D21987A32D099A0500E76B4F /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220BB2CF114880087BCA8 /* KeychainItem.swift */; };
+		D21987A42D099A0500E76B4F /* TraitsViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287C028F32C9900296E0E /* TraitsViewModel_macOS.swift */; };
+		D21987A52D099A0500E76B4F /* MintButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239B05B2A1EAF670039D2E9 /* MintButtonStyle.swift */; };
+		D21987A62D099A0500E76B4F /* FeatureFlagObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A8D0C2A1FE13C00BAFA82 /* FeatureFlagObserver.swift */; };
+		D21987A72D099A0500E76B4F /* NFTPort.Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1229FFF926005CC925 /* NFTPort.Endpoint.swift */; };
+		D21987A92D099A0500E76B4F /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB322E2CEF012E00FA8C4F /* NavigationManager.swift */; };
+		D21987AA2D099A0500E76B4F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEC528E7466200448803 /* CanvasView.swift */; };
+		D21987AB2D099A0500E76B4F /* EditOption_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C972CCE7E4700C6AB1D /* EditOption_iOS.swift */; };
+		D21987AC2D099A0500E76B4F /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF128E75F5E00448803 /* Mock.swift */; };
+		D21987AD2D099A0500E76B4F /* NumberOfItemsInputView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B082CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift */; };
+		D21987AF2D099A0500E76B4F /* CancelExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F902CC01E9100CF6CF4 /* CancelExportButton.swift */; };
+		D21987B52D099A0500E76B4F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C71F672CF4FE7200BE23A3 /* StoreKit.framework */; };
+		D21987BC2D099A0500E76B4F /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = D219871C2D099A0500E76B4F /* Mixpanel */; };
+		D21987C42D099A0500E76B4F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = D21987412D099A0500E76B4F /* ZIPFoundation */; };
+		D21987D42D099A0500E76B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616AC028E69AE100E70104 /* Preview Assets.xcassets */; };
+		D21987D62D099A0500E76B4F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D20B95492CFE61FB0082A547 /* Localizable.xcstrings */; };
+		D21987D82D099A0500E76B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616ABD28E69AE100E70104 /* Assets.xcassets */; };
+		D21987DA2D099A0500E76B4F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B1DF0E2CEDC65000DBC642 /* PrivacyInfo.xcprivacy */; };
+		D21987E12D09A7FD00E76B4F /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987E02D09A7FD00E76B4F /* BasicButton.swift */; };
+		D21987E22D09A7FD00E76B4F /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987E02D09A7FD00E76B4F /* BasicButton.swift */; };
+		D21987E32D09A7FD00E76B4F /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987E02D09A7FD00E76B4F /* BasicButton.swift */; };
+		D22287B728EFF40C00296E0E /* Array+SafeAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287B628EFF40C00296E0E /* Array+SafeAccess.swift */; };
+		D22287BB28F2993A00296E0E /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BA28F2993A00296E0E /* Array+Remove.swift */; };
+		D22287BF28F3297F00296E0E /* CanvasViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BE28F3297F00296E0E /* CanvasViewModel_macOS.swift */; };
+		D22287C128F32C9900296E0E /* TraitsViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287C028F32C9900296E0E /* TraitsViewModel_macOS.swift */; };
+		D2263F8C2CC0156C00CF6CF4 /* NftRenderer_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F8B2CC0156C00CF6CF4 /* NftRenderer_macOS.swift */; };
+		D2263F8E2CC0158D00CF6CF4 /* NftRenderer_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F8D2CC0158D00CF6CF4 /* NftRenderer_iOS.swift */; };
+		D2263F912CC01E9100CF6CF4 /* CancelExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F902CC01E9100CF6CF4 /* CancelExportButton.swift */; };
+		D2263F922CC01E9100CF6CF4 /* CancelExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F902CC01E9100CF6CF4 /* CancelExportButton.swift */; };
+		D22C6A252CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A242CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift */; };
+		D22C6A262CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A242CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift */; };
+		D22C6A2B2CFAFAEF0064B775 /* MetadataExporter_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A2A2CFAFAEF0064B775 /* MetadataExporter_iOS.swift */; };
+		D22C6A2C2CFAFAEF0064B775 /* MetadataExporter_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A2A2CFAFAEF0064B775 /* MetadataExporter_iOS.swift */; };
+		D235EBE52CE4197900966202 /* NftRenderer_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F8B2CC0156C00CF6CF4 /* NftRenderer_macOS.swift */; };
+		D239B05C2A1EAF670039D2E9 /* MintButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239B05B2A1EAF670039D2E9 /* MintButtonStyle.swift */; };
+		D239B05D2A1EAF670039D2E9 /* MintButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239B05B2A1EAF670039D2E9 /* MintButtonStyle.swift */; };
+		D23AB77E2D3B98A60098F17D /* ContentView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB77D2D3B98A60098F17D /* ContentView_macOS.swift */; };
+		D23AB77F2D3B98A60098F17D /* ContentView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB77D2D3B98A60098F17D /* ContentView_macOS.swift */; };
+		D23AB7802D3B98A60098F17D /* ContentView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB77D2D3B98A60098F17D /* ContentView_macOS.swift */; };
+		D23AB7812D3B98A60098F17D /* ContentView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB77D2D3B98A60098F17D /* ContentView_macOS.swift */; };
+		D23AB7842D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7832D3B98FF0098F17D /* OnboardingView_macOS.swift */; };
+		D23AB7852D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7832D3B98FF0098F17D /* OnboardingView_macOS.swift */; };
+		D23AB7862D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7832D3B98FF0098F17D /* OnboardingView_macOS.swift */; };
+		D23AB7872D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7832D3B98FF0098F17D /* OnboardingView_macOS.swift */; };
+		D23AB7892D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7882D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift */; };
+		D23AB78A2D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7882D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift */; };
+		D23AB78B2D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7882D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift */; };
+		D23AB78C2D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB7882D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift */; };
+		D23AB78F2D3BBA090098F17D /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB78E2D3BBA090098F17D /* UserDefaults+Key.swift */; };
+		D23AB7902D3BBA090098F17D /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB78E2D3BBA090098F17D /* UserDefaults+Key.swift */; };
+		D23AB7912D3BBA090098F17D /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB78E2D3BBA090098F17D /* UserDefaults+Key.swift */; };
+		D23AB7922D3BBA090098F17D /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AB78E2D3BBA090098F17D /* UserDefaults+Key.swift */; };
+		D23B4C0728E7839200540103 /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0628E7839200540103 /* CloseButtonView.swift */; };
+		D23B4C0928E7842E00540103 /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0828E7842E00540103 /* Image+SFSymbols.swift */; };
+		D23BD23E2D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD23D2D0DD62300A874B4 /* UIColorValueTransformer.swift */; };
+		D23BD23F2D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD23D2D0DD62300A874B4 /* UIColorValueTransformer.swift */; };
+		D23BD2402D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD23D2D0DD62300A874B4 /* UIColorValueTransformer.swift */; };
+		D23BD2412D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD23D2D0DD62300A874B4 /* UIColorValueTransformer.swift */; };
+		D23BD2442D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2432D0DDA2900A874B4 /* CGRectValueTransformer.swift */; };
+		D23BD2452D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2432D0DDA2900A874B4 /* CGRectValueTransformer.swift */; };
+		D23BD2462D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2432D0DDA2900A874B4 /* CGRectValueTransformer.swift */; };
+		D23BD2472D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2432D0DDA2900A874B4 /* CGRectValueTransformer.swift */; };
+		D23BD2492D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2482D0DDADE00A874B4 /* UIImageValueTransformer.swift */; };
+		D23BD24A2D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2482D0DDADE00A874B4 /* UIImageValueTransformer.swift */; };
+		D23BD24B2D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2482D0DDADE00A874B4 /* UIImageValueTransformer.swift */; };
+		D23BD24C2D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD2482D0DDADE00A874B4 /* UIImageValueTransformer.swift */; };
+		D23BD24E2D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD24D2D0DDE7D00A874B4 /* CGPointValueTransformer.swift */; };
+		D23BD24F2D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD24D2D0DDE7D00A874B4 /* CGPointValueTransformer.swift */; };
+		D23BD2502D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD24D2D0DDE7D00A874B4 /* CGPointValueTransformer.swift */; };
+		D23BD2512D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23BD24D2D0DDE7D00A874B4 /* CGPointValueTransformer.swift */; };
+		D245EEC628E7466200448803 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEC528E7466200448803 /* CanvasView.swift */; };
+		D245EECD28E746FC00448803 /* TraitsPanelView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECC28E746FB00448803 /* TraitsPanelView_macOS.swift */; };
+		D245EECF28E7470900448803 /* TraitView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECE28E7470900448803 /* TraitView_macOS.swift */; };
+		D245EED128E7474200448803 /* SettingsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED028E7474200448803 /* SettingsPanelView.swift */; };
+		D245EED628E7479100448803 /* AppStateManager_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED528E7479100448803 /* AppStateManager_macOS.swift */; };
+		D245EEDB28E747F900448803 /* TraitModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDA28E747F900448803 /* TraitModel_macOS.swift */; };
+		D245EEDD28E7486B00448803 /* OddsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDC28E7486B00448803 /* OddsSliderView.swift */; };
+		D245EEE028E7488400448803 /* AddTraitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDF28E7488400448803 /* AddTraitButton.swift */; };
+		D245EEE628E7491000448803 /* Font+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEE528E7491000448803 /* Font+Pallete.swift */; };
+		D245EEEB28E74DDD00448803 /* ImageViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEA28E74DDD00448803 /* ImageViewModel_macOS.swift */; };
+		D245EEED28E7579100448803 /* CanvasTraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEC28E7579100448803 /* CanvasTraitImageView_macOS.swift */; };
+		D245EEEF28E75E1E00448803 /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEE28E75E1E00448803 /* Color+Random.swift */; };
+		D245EEF228E75F5E00448803 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF128E75F5E00448803 /* Mock.swift */; };
+		D245EEF428E764F400448803 /* LayerPositionStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF328E764F400448803 /* LayerPositionStepperView.swift */; };
+		D245EEF628E7705600448803 /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF528E7705600448803 /* BigActionButtonStyle.swift */; };
+		D245EEF928E779B500448803 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF828E779B500448803 /* ImagePickerView.swift */; };
+		D245EEFB28E77A9700448803 /* ImagePickerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEFA28E77A9700448803 /* ImagePickerButtonStyle.swift */; };
+		D2491E122F7C28050041BB1A /* Bundle+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2491E112F7C28050041BB1A /* Bundle+Config.swift */; };
+		D2491E132F7C28050041BB1A /* Bundle+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2491E112F7C28050041BB1A /* Bundle+Config.swift */; };
+		D2491E142F7C28050041BB1A /* Bundle+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2491E112F7C28050041BB1A /* Bundle+Config.swift */; };
+		D2491E152F7C28050041BB1A /* Bundle+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2491E112F7C28050041BB1A /* Bundle+Config.swift */; };
+		D24BE16A2D20B70C0046850F /* ResetRotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BE1692D20B70C0046850F /* ResetRotationButton.swift */; };
+		D24BE16B2D20B70C0046850F /* ResetRotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BE1692D20B70C0046850F /* ResetRotationButton.swift */; };
+		D24BE16C2D20B70C0046850F /* ResetRotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BE1692D20B70C0046850F /* ResetRotationButton.swift */; };
+		D24BE16D2D20B70C0046850F /* ResetRotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24BE1692D20B70C0046850F /* ResetRotationButton.swift */; };
+		D24D196C2D23F390008A6AF9 /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = D219873C2D099A0500E76B4F /* ReceiptParser */; };
+		D24D196D2D23F390008A6AF9 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = D219873E2D099A0500E76B4F /* RevenueCat */; };
+		D24D196E2D23F390008A6AF9 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = D219873F2D099A0500E76B4F /* RevenueCatUI */; };
+		D25A8D0D2A1FE13C00BAFA82 /* FeatureFlagObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A8D0C2A1FE13C00BAFA82 /* FeatureFlagObserver.swift */; };
+		D25A8D0E2A1FE13C00BAFA82 /* FeatureFlagObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A8D0C2A1FE13C00BAFA82 /* FeatureFlagObserver.swift */; };
+		D25BED9C292232D100F8745B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616ABD28E69AE100E70104 /* Assets.xcassets */; };
+		D25BED9D292232DA00F8745B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616ABD28E69AE100E70104 /* Assets.xcassets */; };
+		D25E8E1F2911F35200E5C3E4 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E8E1E2911F35200E5C3E4 /* AppVersion.swift */; };
+		D25E8E882911F44B00E5C3E4 /* SettingsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED028E7474200448803 /* SettingsPanelView.swift */; };
+		D25E8E892911F44B00E5C3E4 /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEE28E75E1E00448803 /* Color+Random.swift */; };
+		D25E8E8A2911F44B00E5C3E4 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E8E1E2911F35200E5C3E4 /* AppVersion.swift */; };
+		D25E8E8B2911F44B00E5C3E4 /* CanvasTraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEC28E7579100448803 /* CanvasTraitImageView_macOS.swift */; };
+		D25E8E8C2911F44B00E5C3E4 /* MainView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616ABB28E69AE000E70104 /* MainView_iOS.swift */; };
+		D25E8E8D2911F44B00E5C3E4 /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901728FD06A200AB5711 /* Binding+Optional.swift */; };
+		D25E8E8E2911F44B00E5C3E4 /* NumberOfItemsInputView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F090222905210E00AB5711 /* NumberOfItemsInputView_iOS.swift */; };
+		D25E8E8F2911F44B00E5C3E4 /* ImagePickerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEFA28E77A9700448803 /* ImagePickerButtonStyle.swift */; };
+		D25E8E902911F44B00E5C3E4 /* NSImage+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902D29054E2B00AB5711 /* NSImage+CGImage.swift */; };
+		D25E8E912911F44B00E5C3E4 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AA92911B11C008E861E /* Color+Palette.swift */; };
+		D25E8E922911F44B00E5C3E4 /* ImagesGridView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3663228F5464F009C1981 /* ImagesGridView_macOS.swift */; };
+		D25E8E932911F44B00E5C3E4 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF828E779B500448803 /* ImagePickerView.swift */; };
+		D25E8E942911F44B00E5C3E4 /* AddTraitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDF28E7488400448803 /* AddTraitButton.swift */; };
+		D25E8E952911F44B00E5C3E4 /* TraitsPanelView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECC28E746FB00448803 /* TraitsPanelView_macOS.swift */; };
+		D25E8E962911F44B00E5C3E4 /* TraitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902B29053C1A00AB5711 /* TraitGenerator.swift */; };
+		D25E8E972911F44B00E5C3E4 /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0828E7842E00540103 /* Image+SFSymbols.swift */; };
+		D25E8E992911F44B00E5C3E4 /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF528E7705600448803 /* BigActionButtonStyle.swift */; };
+		D25E8E9A2911F44B00E5C3E4 /* LootBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616AB928E69AE000E70104 /* LootBoxApp.swift */; };
+		D25E8E9B2911F44B00E5C3E4 /* Error+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AAB2911C6E0008E861E /* Error+Domain.swift */; };
+		D25E8E9C2911F44B00E5C3E4 /* Font+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEE528E7491000448803 /* Font+Pallete.swift */; };
+		D25E8E9D2911F44B00E5C3E4 /* ImageViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEA28E74DDD00448803 /* ImageViewModel_macOS.swift */; };
+		D25E8E9F2911F44B00E5C3E4 /* View+ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921728E79A28005B75DC /* View+ConditionalModifier.swift */; };
+		D25E8EA02911F44B00E5C3E4 /* NSImage+Png.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921B28E7A0A2005B75DC /* NSImage+Png.swift */; };
+		D25E8EA12911F44B00E5C3E4 /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0628E7839200540103 /* CloseButtonView.swift */; };
+		D25E8EA22911F44B00E5C3E4 /* LayerPositionStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF328E764F400448803 /* LayerPositionStepperView.swift */; };
+		D25E8EA32911F44B00E5C3E4 /* View+NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901E29051EAB00AB5711 /* View+NSWindow.swift */; };
+		D25E8EA42911F44B00E5C3E4 /* AppStateManager_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED528E7479100448803 /* AppStateManager_macOS.swift */; };
+		D25E8EA52911F44B00E5C3E4 /* CanvasViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BE28F3297F00296E0E /* CanvasViewModel_macOS.swift */; };
+		D25E8EA62911F44B00E5C3E4 /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BA28F2993A00296E0E /* Array+Remove.swift */; };
+		D25E8EA72911F44B00E5C3E4 /* Array+SafeAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287B628EFF40C00296E0E /* Array+SafeAccess.swift */; };
+		D25E8EA92911F44B00E5C3E4 /* OddsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDC28E7486B00448803 /* OddsSliderView.swift */; };
+		D25E8EAA2911F44B00E5C3E4 /* TraitView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECE28E7470900448803 /* TraitView_macOS.swift */; };
+		D25E8EAB2911F44B00E5C3E4 /* TraitModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDA28E747F900448803 /* TraitModel_macOS.swift */; };
+		D25E8EAC2911F44B00E5C3E4 /* TraitsViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287C028F32C9900296E0E /* TraitsViewModel_macOS.swift */; };
+		D25E8EAE2911F44B00E5C3E4 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEC528E7466200448803 /* CanvasView.swift */; };
+		D25E8EAF2911F44B00E5C3E4 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF128E75F5E00448803 /* Mock.swift */; };
+		D25E8EB22911F44B00E5C3E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616AC028E69AE100E70104 /* Preview Assets.xcassets */; };
+		D2616ABA28E69AE000E70104 /* LootBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616AB928E69AE000E70104 /* LootBoxApp.swift */; };
+		D2616ABC28E69AE000E70104 /* MainView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616ABB28E69AE000E70104 /* MainView_iOS.swift */; };
+		D2616AC128E69AE100E70104 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616AC028E69AE100E70104 /* Preview Assets.xcassets */; };
+		D26220BC2CF114880087BCA8 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220BB2CF114880087BCA8 /* KeychainItem.swift */; };
+		D26220BD2CF114880087BCA8 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220BB2CF114880087BCA8 /* KeychainItem.swift */; };
+		D26220C52CF11EB90087BCA8 /* String+Nonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C42CF11EB90087BCA8 /* String+Nonce.swift */; };
+		D26220C62CF11EB90087BCA8 /* String+Nonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C42CF11EB90087BCA8 /* String+Nonce.swift */; };
+		D26220C82CF11EE20087BCA8 /* String+Sha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C72CF11EE20087BCA8 /* String+Sha256.swift */; };
+		D26220C92CF11EE20087BCA8 /* String+Sha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C72CF11EE20087BCA8 /* String+Sha256.swift */; };
+		D26220CC2CF136150087BCA8 /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CB2CF136150087BCA8 /* OnboardingView_iOS.swift */; };
+		D26220CD2CF136150087BCA8 /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CB2CF136150087BCA8 /* OnboardingView_iOS.swift */; };
+		D26220D02CF136510087BCA8 /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CF2CF136510087BCA8 /* OnboardingView.PageView_iOS.swift */; };
+		D26220D12CF136510087BCA8 /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CF2CF136510087BCA8 /* OnboardingView.PageView_iOS.swift */; };
+		D26220D92CF141660087BCA8 /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220D82CF141660087BCA8 /* Onboarding.Dots.swift */; };
+		D26220DA2CF141660087BCA8 /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220D82CF141660087BCA8 /* Onboarding.Dots.swift */; };
+		D26220DC2CF143860087BCA8 /* ContentView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DB2CF143860087BCA8 /* ContentView_iOS.swift */; };
+		D26220DD2CF143860087BCA8 /* ContentView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DB2CF143860087BCA8 /* ContentView_iOS.swift */; };
+		D26220E02CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DF2CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift */; };
+		D26220E12CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DF2CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift */; };
+		D26446332CC3738B003249DC /* UIApplication+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26446322CC3738B003249DC /* UIApplication+Window.swift */; };
+		D26446342CC3738B003249DC /* UIApplication+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26446322CC3738B003249DC /* UIApplication+Window.swift */; };
+		D26446362CC61063003249DC /* FilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26446352CC61063003249DC /* FilePickerView.swift */; };
+		D268647B2D23F331006035A5 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = D268647A2D23F331006035A5 /* RevenueCat */; };
+		D268647D2D23F331006035A5 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = D268647C2D23F331006035A5 /* RevenueCatUI */; };
+		D26F964229C732DC003051C0 /* ReorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F964129C732DC003051C0 /* ReorderButton.swift */; };
+		D26F964329C732E5003051C0 /* DropHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F963E29C7308C003051C0 /* DropHandler.swift */; };
+		D2807AAA2911B11C008E861E /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AA92911B11C008E861E /* Color+Palette.swift */; };
+		D2807AAC2911C6E0008E861E /* Error+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AAB2911C6E0008E861E /* Error+Domain.swift */; };
+		D28319A12CC6178E00EC041C /* PhotosPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28319A02CC6178E00EC041C /* PhotosPickerView.swift */; };
+		D28319A72CC61CFF00EC041C /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28319A62CC61CFF00EC041C /* URL+Filename.swift */; };
+		D28319A82CC61CFF00EC041C /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28319A62CC61CFF00EC041C /* URL+Filename.swift */; };
+		D28B4C162D20499800353D82 /* PhoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C152D20499800353D82 /* PhoneButton.swift */; };
+		D28B4C172D20499800353D82 /* PhoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C152D20499800353D82 /* PhoneButton.swift */; };
+		D28B4C182D20499800353D82 /* PhoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C152D20499800353D82 /* PhoneButton.swift */; };
+		D28B4C192D20499800353D82 /* PhoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C152D20499800353D82 /* PhoneButton.swift */; };
+		D28B4C1C2D2067FF00353D82 /* MainView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C1B2D2067FF00353D82 /* MainView_macOS.swift */; };
+		D28B4C1D2D2067FF00353D82 /* MainView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C1B2D2067FF00353D82 /* MainView_macOS.swift */; };
+		D28B4C1E2D2067FF00353D82 /* MainView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C1B2D2067FF00353D82 /* MainView_macOS.swift */; };
+		D28B4C1F2D2067FF00353D82 /* MainView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B4C1B2D2067FF00353D82 /* MainView_macOS.swift */; };
+		D292F03F2D1F551000214B9B /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F03E2D1F551000214B9B /* SettingsModel.swift */; };
+		D292F0402D1F551000214B9B /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F03E2D1F551000214B9B /* SettingsModel.swift */; };
+		D292F0412D1F551000214B9B /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F03E2D1F551000214B9B /* SettingsModel.swift */; };
+		D292F0422D1F551000214B9B /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F03E2D1F551000214B9B /* SettingsModel.swift */; };
+		D292F0452D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F0442D1F5D3800214B9B /* AppUiModel_macOS.swift */; };
+		D292F0462D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F0442D1F5D3800214B9B /* AppUiModel_macOS.swift */; };
+		D292F0472D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F0442D1F5D3800214B9B /* AppUiModel_macOS.swift */; };
+		D292F0482D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F0442D1F5D3800214B9B /* AppUiModel_macOS.swift */; };
+		D29508B32A1E84E200CE562F /* NFTMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508B22A1E84E200CE562F /* NFTMetadata.swift */; };
+		D29508B42A1E916000CE562F /* NFTMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508B22A1E84E200CE562F /* NFTMetadata.swift */; };
+		D29508B52A1E918300CE562F /* NftMinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1E2A0015FD005CC925 /* NftMinter.swift */; };
+		D29508BC2A1E952800CE562F /* Web3Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508BB2A1E952800CE562F /* Web3Utils.swift */; };
+		D29508BD2A1E952800CE562F /* Web3Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508BB2A1E952800CE562F /* Web3Utils.swift */; };
+		D29E1C6D2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6C2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift */; };
+		D29E1C6E2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6C2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift */; };
+		D29E1C702CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6F2CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift */; };
+		D29E1C712CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6F2CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift */; };
+		D29E1C8E2CCE4AA900C6AB1D /* TraitModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C8D2CCE4AA900C6AB1D /* TraitModel_iOS.swift */; };
+		D29E1C8F2CCE4AA900C6AB1D /* TraitModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C8D2CCE4AA900C6AB1D /* TraitModel_iOS.swift */; };
+		D29E1C952CCE75E600C6AB1D /* TraitsViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C942CCE75E600C6AB1D /* TraitsViewModel_iOS.swift */; };
+		D29E1C962CCE75E600C6AB1D /* TraitsViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C942CCE75E600C6AB1D /* TraitsViewModel_iOS.swift */; };
+		D29E1C982CCE7E4700C6AB1D /* EditOption_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C972CCE7E4700C6AB1D /* EditOption_iOS.swift */; };
+		D29E1C992CCE7E4700C6AB1D /* EditOption_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C972CCE7E4700C6AB1D /* EditOption_iOS.swift */; };
+		D29E1C9B2CCEA51500C6AB1D /* ImagesGridView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9A2CCEA51500C6AB1D /* ImagesGridView_iOS.swift */; };
+		D29E1C9C2CCEA51500C6AB1D /* ImagesGridView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9A2CCEA51500C6AB1D /* ImagesGridView_iOS.swift */; };
+		D29E1C9F2CCEA55C00C6AB1D /* TraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9E2CCEA55C00C6AB1D /* TraitImageView_iOS.swift */; };
+		D29E1CA02CCEA55C00C6AB1D /* TraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9E2CCEA55C00C6AB1D /* TraitImageView_iOS.swift */; };
+		D29E1CA22CCEA94600C6AB1D /* TraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1CA12CCEA94600C6AB1D /* TraitImageView_macOS.swift */; };
+		D29E1CA32CCEA94600C6AB1D /* TraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1CA12CCEA94600C6AB1D /* TraitImageView_macOS.swift */; };
+		D2A0B7092CE008B8002419A0 /* TraitEditHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0B7082CE008B8002419A0 /* TraitEditHUD.swift */; };
+		D2A0B70A2CE008B8002419A0 /* TraitEditHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0B7082CE008B8002419A0 /* TraitEditHUD.swift */; };
+		D2A822B02CD4B5EE00294C56 /* ImageViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A822AF2CD4B5EE00294C56 /* ImageViewModel_iOS.swift */; };
+		D2A822B12CD4B5EE00294C56 /* ImageViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A822AF2CD4B5EE00294C56 /* ImageViewModel_iOS.swift */; };
+		D2A9ED2A2D0B876D00350F3D /* SettingsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED028E7474200448803 /* SettingsPanelView.swift */; };
+		D2A9ED2C2D0B876D00350F3D /* OnboardingView.Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D471232D0B7BEA00E0AF73 /* OnboardingView.Page.swift */; };
+		D2A9ED2D2D0B876D00350F3D /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEE28E75E1E00448803 /* Color+Random.swift */; };
+		D2A9ED2E2D0B876D00350F3D /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E8E1E2911F35200E5C3E4 /* AppVersion.swift */; };
+		D2A9ED2F2D0B876D00350F3D /* CanvasTraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEC28E7579100448803 /* CanvasTraitImageView_macOS.swift */; };
+		D2A9ED302D0B876D00350F3D /* MetadataExporter_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A2A2CFAFAEF0064B775 /* MetadataExporter_iOS.swift */; };
+		D2A9ED312D0B876D00350F3D /* MainView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616ABB28E69AE000E70104 /* MainView_iOS.swift */; };
+		D2A9ED322D0B876D00350F3D /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901728FD06A200AB5711 /* Binding+Optional.swift */; };
+		D2A9ED332D0B876D00350F3D /* NumberOfItemsInputView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F090222905210E00AB5711 /* NumberOfItemsInputView_iOS.swift */; };
+		D2A9ED342D0B876D00350F3D /* ImagePickerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEFA28E77A9700448803 /* ImagePickerButtonStyle.swift */; };
+		D2A9ED352D0B876D00350F3D /* CanvasTraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6F2CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift */; };
+		D2A9ED362D0B876D00350F3D /* String+Sha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C72CF11EE20087BCA8 /* String+Sha256.swift */; };
+		D2A9ED382D0B876D00350F3D /* NumberOfItemsInputView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B082CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift */; };
+		D2A9ED392D0B876D00350F3D /* NSImage+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902D29054E2B00AB5711 /* NSImage+CGImage.swift */; };
+		D2A9ED3A2D0B876D00350F3D /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AA92911B11C008E861E /* Color+Palette.swift */; };
+		D2A9ED3B2D0B876D00350F3D /* MagnifyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5A2CD60EF1005589CE /* MagnifyMenuView.swift */; };
+		D2A9ED3C2D0B876D00350F3D /* TraitImageView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1CA12CCEA94600C6AB1D /* TraitImageView_macOS.swift */; };
+		D2A9ED3D2D0B876D00350F3D /* DropHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F963E29C7308C003051C0 /* DropHandler.swift */; };
+		D2A9ED3E2D0B876D00350F3D /* ImagesGridView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3663228F5464F009C1981 /* ImagesGridView_macOS.swift */; };
+		D2A9ED3F2D0B876D00350F3D /* UIView+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20DF8CD2CDBE30F00BBE4DF /* UIView+Rotate.swift */; };
+		D2A9ED402D0B876D00350F3D /* UserDefaults+CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987182D09836600E76B4F /* UserDefaults+CustomObject.swift */; };
+		D2A9ED412D0B876D00350F3D /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF828E779B500448803 /* ImagePickerView.swift */; };
+		D2A9ED422D0B876D00350F3D /* OnboardingView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CB2CF136150087BCA8 /* OnboardingView_iOS.swift */; };
+		D2A9ED432D0B876D00350F3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32362CEF018400FA8C4F /* User.swift */; };
+		D2A9ED442D0B876D00350F3D /* URL+Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28319A62CC61CFF00EC041C /* URL+Filename.swift */; };
+		D2A9ED452D0B876D00350F3D /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220BB2CF114880087BCA8 /* KeychainItem.swift */; };
+		D2A9ED462D0B876D00350F3D /* AddTraitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDF28E7488400448803 /* AddTraitButton.swift */; };
+		D2A9ED472D0B876D00350F3D /* NFTPort.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1829FFFA86005CC925 /* NFTPort.Error.swift */; };
+		D2A9ED482D0B876D00350F3D /* TraitsPanelView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECC28E746FB00448803 /* TraitsPanelView_macOS.swift */; };
+		D2A9ED492D0B876D00350F3D /* TraitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902B29053C1A00AB5711 /* TraitGenerator.swift */; };
+		D2A9ED4A2D0B876D00350F3D /* UIApplication+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26446322CC3738B003249DC /* UIApplication+Window.swift */; };
+		D2A9ED4B2D0B876D00350F3D /* TraitEditHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0B7082CE008B8002419A0 /* TraitEditHUD.swift */; };
+		D2A9ED4C2D0B876D00350F3D /* String+Nonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220C42CF11EB90087BCA8 /* String+Nonce.swift */; };
+		D2A9ED4D2D0B876D00350F3D /* Image+SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0828E7842E00540103 /* Image+SFSymbols.swift */; };
+		D2A9ED4E2D0B876D00350F3D /* BigActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF528E7705600448803 /* BigActionButtonStyle.swift */; };
+		D2A9ED4F2D0B876D00350F3D /* LootBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2616AB928E69AE000E70104 /* LootBoxApp.swift */; };
+		D2A9ED502D0B876D00350F3D /* UpgradeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4F92912BDC600BC9A24 /* UpgradeButtonView.swift */; };
+		D2A9ED512D0B876D00350F3D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1B29FFFED5005CC925 /* Logger.swift */; };
+		D2A9ED532D0B876D00350F3D /* UpsellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B95402CFE19840082A547 /* UpsellButton.swift */; };
+		D2A9ED542D0B876D00350F3D /* NFTPort.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1529FFFA08005CC925 /* NFTPort.Response.swift */; };
+		D2A9ED552D0B876D00350F3D /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB324E2CEF178600FA8C4F /* Separator.swift */; };
+		D2A9ED562D0B876D00350F3D /* Error+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2807AAB2911C6E0008E861E /* Error+Domain.swift */; };
+		D2A9ED572D0B876D00350F3D /* Onboarding.Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220D82CF141660087BCA8 /* Onboarding.Dots.swift */; };
+		D2A9ED582D0B876D00350F3D /* Font+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEE528E7491000448803 /* Font+Pallete.swift */; };
+		D2A9ED592D0B876D00350F3D /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB322E2CEF012E00FA8C4F /* NavigationManager.swift */; };
+		D2A9ED5A2D0B876D00350F3D /* ImageViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEEA28E74DDD00448803 /* ImageViewModel_macOS.swift */; };
+		D2A9ED5B2D0B876D00350F3D /* SubscriptionService_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C71F6A2CF5060400BE23A3 /* SubscriptionService_iOS.swift */; };
+		D2A9ED5C2D0B876D00350F3D /* OddsSliderView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFEAF52CD3612E004E4557 /* OddsSliderView_iOS.swift */; };
+		D2A9ED5D2D0B876D00350F3D /* ContentView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DB2CF143860087BCA8 /* ContentView_iOS.swift */; };
+		D2A9ED5E2D0B876D00350F3D /* View+ConditionalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921728E79A28005B75DC /* View+ConditionalModifier.swift */; };
+		D2A9ED5F2D0B876D00350F3D /* Web3Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508BB2A1E952800CE562F /* Web3Utils.swift */; };
+		D2A9ED602D0B876D00350F3D /* LinearGradient+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220DF2CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift */; };
+		D2A9ED612D0B876D00350F3D /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3446D29BBA2AA003D8E66 /* Analytics.swift */; };
+		D2A9ED622D0B876D00350F3D /* OnboardingView.PageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26220CF2CF136510087BCA8 /* OnboardingView.PageView_iOS.swift */; };
+		D2A9ED632D0B876D00350F3D /* NSImage+Png.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204921B28E7A0A2005B75DC /* NSImage+Png.swift */; };
+		D2A9ED642D0B876D00350F3D /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B4C0628E7839200540103 /* CloseButtonView.swift */; };
+		D2A9ED652D0B876D00350F3D /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21987E02D09A7FD00E76B4F /* BasicButton.swift */; };
+		D2A9ED662D0B876D00350F3D /* TraitModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C8D2CCE4AA900C6AB1D /* TraitModel_iOS.swift */; };
+		D2A9ED672D0B876D00350F3D /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D692CD658E3005589CE /* SettingsMenu.swift */; };
+		D2A9ED682D0B876D00350F3D /* LayerPositionStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF328E764F400448803 /* LayerPositionStepperView.swift */; };
+		D2A9ED692D0B876D00350F3D /* AppAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E041442D09BB6500C01299 /* AppAlert.swift */; };
+		D2A9ED6A2D0B876D00350F3D /* View+NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901E29051EAB00AB5711 /* View+NSWindow.swift */; };
+		D2A9ED6B2D0B876D00350F3D /* ReorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F964129C732DC003051C0 /* ReorderButton.swift */; };
+		D2A9ED6D2D0B876D00350F3D /* NFTMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29508B22A1E84E200CE562F /* NFTMetadata.swift */; };
+		D2A9ED6E2D0B876D00350F3D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32492CEF136000FA8C4F /* Color+Hex.swift */; };
+		D2A9ED6F2D0B876D00350F3D /* AppStateManager_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EED528E7479100448803 /* AppStateManager_macOS.swift */; };
+		D2A9ED702D0B876D00350F3D /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E985D02CFB23650036D2E4 /* View+Placeholder.swift */; };
+		D2A9ED712D0B876D00350F3D /* CanvasViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BE28F3297F00296E0E /* CanvasViewModel_macOS.swift */; };
+		D2A9ED722D0B876D00350F3D /* AppStateManager_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2098B0C2CD6BA0A000D9D4A /* AppStateManager_iOS.swift */; };
+		D2A9ED732D0B876D00350F3D /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287BA28F2993A00296E0E /* Array+Remove.swift */; };
+		D2A9ED742D0B876D00350F3D /* Array+SafeAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287B628EFF40C00296E0E /* Array+SafeAccess.swift */; };
+		D2A9ED752D0B876D00350F3D /* NFTPortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F0F29FFF843005CC925 /* NFTPortService.swift */; };
+		D2A9ED772D0B876D00350F3D /* UIDevice+Convenience_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22C6A242CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift */; };
+		D2A9ED782D0B876D00350F3D /* EditOption_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C972CCE7E4700C6AB1D /* EditOption_iOS.swift */; };
+		D2A9ED792D0B876D00350F3D /* NftMinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1E2A0015FD005CC925 /* NftMinter.swift */; };
+		D2A9ED7A2D0B876D00350F3D /* ImageViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A822AF2CD4B5EE00294C56 /* ImageViewModel_iOS.swift */; };
+		D2A9ED7B2D0B876D00350F3D /* AppStateManager.ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32332CEF016000FA8C4F /* AppStateManager.ScreenType.swift */; };
+		D2A9ED7C2D0B876D00350F3D /* TraitImageView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9E2CCEA55C00C6AB1D /* TraitImageView_iOS.swift */; };
+		D2A9ED7D2D0B876D00350F3D /* UpgradeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20BB4FC2912BE6F00BC9A24 /* UpgradeButtonStyle.swift */; };
+		D2A9ED7E2D0B876D00350F3D /* OddsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDC28E7486B00448803 /* OddsSliderView.swift */; };
+		D2A9ED7F2D0B876D00350F3D /* TraitsViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C942CCE75E600C6AB1D /* TraitsViewModel_iOS.swift */; };
+		D2A9ED802D0B876D00350F3D /* CanvasViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D562CD60C69005589CE /* CanvasViewModel_iOS.swift */; };
+		D2A9ED822D0B876D00350F3D /* CancelExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F902CC01E9100CF6CF4 /* CancelExportButton.swift */; };
+		D2A9ED832D0B876D00350F3D /* EditMoreMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D652CD65171005589CE /* EditMoreMenu_iOS.swift */; };
+		D2A9ED842D0B876D00350F3D /* TraitSettingsMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D612CD64F5C005589CE /* TraitSettingsMenu_iOS.swift */; };
+		D2A9ED852D0B876D00350F3D /* View+Navigation_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32512CEF17C200FA8C4F /* View+Navigation_iOS.swift */; };
+		D2A9ED862D0B876D00350F3D /* TraitEditMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C6C2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift */; };
+		D2A9ED872D0B876D00350F3D /* Image+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32462CEF12CB00FA8C4F /* Image+Pallete.swift */; };
+		D2A9ED882D0B876D00350F3D /* TraitView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EECE28E7470900448803 /* TraitView_macOS.swift */; };
+		D2A9ED892D0B876D00350F3D /* TraitModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEDA28E747F900448803 /* TraitModel_macOS.swift */; };
+		D2A9ED8A2D0B876D00350F3D /* TraitsViewModel_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22287C028F32C9900296E0E /* TraitsViewModel_macOS.swift */; };
+		D2A9ED8B2D0B876D00350F3D /* MintButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239B05B2A1EAF670039D2E9 /* MintButtonStyle.swift */; };
+		D2A9ED8C2D0B876D00350F3D /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32402CEF073800FA8C4F /* Namespace.swift */; };
+		D2A9ED8D2D0B876D00350F3D /* FeatureFlagObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A8D0C2A1FE13C00BAFA82 /* FeatureFlagObserver.swift */; };
+		D2A9ED8E2D0B876D00350F3D /* NFTPort.Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1229FFF926005CC925 /* NFTPort.Endpoint.swift */; };
+		D2A9ED8F2D0B876D00350F3D /* NftRenderer_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2263F8B2CC0156C00CF6CF4 /* NftRenderer_macOS.swift */; };
+		D2A9ED902D0B876D00350F3D /* View+Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5D2CD62402005589CE /* View+Tile.swift */; };
+		D2A9ED912D0B876D00350F3D /* ImagesGridView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E1C9A2CCEA51500C6AB1D /* ImagesGridView_iOS.swift */; };
+		D2A9ED922D0B876D00350F3D /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEC528E7466200448803 /* CanvasView.swift */; };
+		D2A9ED932D0B876D00350F3D /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D245EEF128E75F5E00448803 /* Mock.swift */; };
+		D2A9ED962D0B876D00350F3D /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = D2A9ED252D0B876D00350F3D /* Mixpanel */; };
+		D2A9ED982D0B876D00350F3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616AC028E69AE100E70104 /* Preview Assets.xcassets */; };
+		D2A9ED992D0B876D00350F3D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D20B95492CFE61FB0082A547 /* Localizable.xcstrings */; };
+		D2A9ED9A2D0B876D00350F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2616ABD28E69AE100E70104 /* Assets.xcassets */; };
+		D2A9ED9B2D0B876D00350F3D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B1DF0E2CEDC65000DBC642 /* PrivacyInfo.xcprivacy */; };
+		D2AB322F2CEF012E00FA8C4F /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB322E2CEF012E00FA8C4F /* NavigationManager.swift */; };
+		D2AB32302CEF012E00FA8C4F /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB322E2CEF012E00FA8C4F /* NavigationManager.swift */; };
+		D2AB32342CEF016000FA8C4F /* AppStateManager.ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32332CEF016000FA8C4F /* AppStateManager.ScreenType.swift */; };
+		D2AB32352CEF016000FA8C4F /* AppStateManager.ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32332CEF016000FA8C4F /* AppStateManager.ScreenType.swift */; };
+		D2AB32372CEF018400FA8C4F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32362CEF018400FA8C4F /* User.swift */; };
+		D2AB32382CEF018400FA8C4F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32362CEF018400FA8C4F /* User.swift */; };
+		D2AB32412CEF073800FA8C4F /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32402CEF073800FA8C4F /* Namespace.swift */; };
+		D2AB32422CEF073800FA8C4F /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32402CEF073800FA8C4F /* Namespace.swift */; };
+		D2AB32442CEF116400FA8C4F /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32432CEF116400FA8C4F /* SignInButton.swift */; };
+		D2AB32472CEF12CB00FA8C4F /* Image+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32462CEF12CB00FA8C4F /* Image+Pallete.swift */; };
+		D2AB32482CEF12CB00FA8C4F /* Image+Pallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32462CEF12CB00FA8C4F /* Image+Pallete.swift */; };
+		D2AB324A2CEF136000FA8C4F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32492CEF136000FA8C4F /* Color+Hex.swift */; };
+		D2AB324B2CEF136000FA8C4F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32492CEF136000FA8C4F /* Color+Hex.swift */; };
+		D2AB324F2CEF178600FA8C4F /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB324E2CEF178600FA8C4F /* Separator.swift */; };
+		D2AB32502CEF178600FA8C4F /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB324E2CEF178600FA8C4F /* Separator.swift */; };
+		D2AB32522CEF17C200FA8C4F /* View+Navigation_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32512CEF17C200FA8C4F /* View+Navigation_iOS.swift */; };
+		D2AB32532CEF17C200FA8C4F /* View+Navigation_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AB32512CEF17C200FA8C4F /* View+Navigation_iOS.swift */; };
+		D2B1DF0F2CEDC65000DBC642 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B1DF0E2CEDC65000DBC642 /* PrivacyInfo.xcprivacy */; };
+		D2B1DF102CEDC65000DBC642 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B1DF0E2CEDC65000DBC642 /* PrivacyInfo.xcprivacy */; };
+		D2B3BFAA2CFAFD5500CF9656 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = D2B3BFA92CFAFD5500CF9656 /* ZIPFoundation */; };
+		D2BFEAF62CD3612E004E4557 /* OddsSliderView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFEAF52CD3612E004E4557 /* OddsSliderView_iOS.swift */; };
+		D2BFEAF72CD3612E004E4557 /* OddsSliderView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFEAF52CD3612E004E4557 /* OddsSliderView_iOS.swift */; };
+		D2C43F1029FFF843005CC925 /* NFTPortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F0F29FFF843005CC925 /* NFTPortService.swift */; };
+		D2C43F1129FFF843005CC925 /* NFTPortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F0F29FFF843005CC925 /* NFTPortService.swift */; };
+		D2C43F1329FFF927005CC925 /* NFTPort.Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1229FFF926005CC925 /* NFTPort.Endpoint.swift */; };
+		D2C43F1429FFF927005CC925 /* NFTPort.Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1229FFF926005CC925 /* NFTPort.Endpoint.swift */; };
+		D2C43F1629FFFA08005CC925 /* NFTPort.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1529FFFA08005CC925 /* NFTPort.Response.swift */; };
+		D2C43F1729FFFA08005CC925 /* NFTPort.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1529FFFA08005CC925 /* NFTPort.Response.swift */; };
+		D2C43F1929FFFA86005CC925 /* NFTPort.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1829FFFA86005CC925 /* NFTPort.Error.swift */; };
+		D2C43F1A29FFFA86005CC925 /* NFTPort.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1829FFFA86005CC925 /* NFTPort.Error.swift */; };
+		D2C43F1C29FFFED5005CC925 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1B29FFFED5005CC925 /* Logger.swift */; };
+		D2C43F1D29FFFED5005CC925 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1B29FFFED5005CC925 /* Logger.swift */; };
+		D2C43F202A0015FD005CC925 /* NftMinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C43F1E2A0015FD005CC925 /* NftMinter.swift */; };
+		D2C71F682CF4FE7200BE23A3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C71F672CF4FE7200BE23A3 /* StoreKit.framework */; };
+		D2C71F6B2CF5060400BE23A3 /* SubscriptionService_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C71F6A2CF5060400BE23A3 /* SubscriptionService_iOS.swift */; };
+		D2C71F6C2CF5060400BE23A3 /* SubscriptionService_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C71F6A2CF5060400BE23A3 /* SubscriptionService_iOS.swift */; };
+		D2CD6D572CD60C69005589CE /* CanvasViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D562CD60C69005589CE /* CanvasViewModel_iOS.swift */; };
+		D2CD6D582CD60C69005589CE /* CanvasViewModel_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D562CD60C69005589CE /* CanvasViewModel_iOS.swift */; };
+		D2CD6D5B2CD60EF1005589CE /* MagnifyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5A2CD60EF1005589CE /* MagnifyMenuView.swift */; };
+		D2CD6D5C2CD60EF1005589CE /* MagnifyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5A2CD60EF1005589CE /* MagnifyMenuView.swift */; };
+		D2CD6D5E2CD62405005589CE /* View+Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5D2CD62402005589CE /* View+Tile.swift */; };
+		D2CD6D5F2CD62405005589CE /* View+Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D5D2CD62402005589CE /* View+Tile.swift */; };
+		D2CD6D622CD64F5C005589CE /* TraitSettingsMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D612CD64F5C005589CE /* TraitSettingsMenu_iOS.swift */; };
+		D2CD6D632CD64F5C005589CE /* TraitSettingsMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D612CD64F5C005589CE /* TraitSettingsMenu_iOS.swift */; };
+		D2CD6D662CD65171005589CE /* EditMoreMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D652CD65171005589CE /* EditMoreMenu_iOS.swift */; };
+		D2CD6D672CD65171005589CE /* EditMoreMenu_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D652CD65171005589CE /* EditMoreMenu_iOS.swift */; };
+		D2CD6D6A2CD658E3005589CE /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D692CD658E3005589CE /* SettingsMenu.swift */; };
+		D2CD6D6B2CD658E3005589CE /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D692CD658E3005589CE /* SettingsMenu.swift */; };
+		D2D3446929BBA107003D8E66 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = D2D3446829BBA107003D8E66 /* Mixpanel */; };
+		D2D3446B29BBA11D003D8E66 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = D2D3446A29BBA11D003D8E66 /* Mixpanel */; };
+		D2D3446E29BBA2AA003D8E66 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3446D29BBA2AA003D8E66 /* Analytics.swift */; };
+		D2D3446F29BBA2AA003D8E66 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3446D29BBA2AA003D8E66 /* Analytics.swift */; };
+		D2D471242D0B7BEA00E0AF73 /* OnboardingView.Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D471232D0B7BEA00E0AF73 /* OnboardingView.Page.swift */; };
+		D2D471252D0B7BEA00E0AF73 /* OnboardingView.Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D471232D0B7BEA00E0AF73 /* OnboardingView.Page.swift */; };
+		D2D471262D0B7BEA00E0AF73 /* OnboardingView.Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D471232D0B7BEA00E0AF73 /* OnboardingView.Page.swift */; };
+		D2E041452D09BB6500C01299 /* AppAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E041442D09BB6500C01299 /* AppAlert.swift */; };
+		D2E041462D09BB6500C01299 /* AppAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E041442D09BB6500C01299 /* AppAlert.swift */; };
+		D2E041472D09BB6500C01299 /* AppAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E041442D09BB6500C01299 /* AppAlert.swift */; };
+		D2E3663328F5464F009C1981 /* ImagesGridView_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3663228F5464F009C1981 /* ImagesGridView_macOS.swift */; };
+		D2E985D12CFB23650036D2E4 /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E985D02CFB23650036D2E4 /* View+Placeholder.swift */; };
+		D2E985D22CFB23650036D2E4 /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E985D02CFB23650036D2E4 /* View+Placeholder.swift */; };
+		D2F0901828FD06A200AB5711 /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901728FD06A200AB5711 /* Binding+Optional.swift */; };
+		D2F0901F29051EAB00AB5711 /* View+NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0901E29051EAB00AB5711 /* View+NSWindow.swift */; };
+		D2F090232905210E00AB5711 /* NumberOfItemsInputView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F090222905210E00AB5711 /* NumberOfItemsInputView_iOS.swift */; };
+		D2F0902C29053C1A00AB5711 /* TraitGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902B29053C1A00AB5711 /* TraitGenerator.swift */; };
+		D2F0902E29054E2B00AB5711 /* NSImage+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0902D29054E2B00AB5711 /* NSImage+CGImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D204921728E79A28005B75DC /* View+ConditionalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ConditionalModifier.swift"; sourceTree = "<group>"; };
+		D204921B28E7A0A2005B75DC /* NSImage+Png.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Png.swift"; sourceTree = "<group>"; };
+		D2098B082CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfItemsInputView_macOS.swift; sourceTree = "<group>"; };
+		D2098B0C2CD6BA0A000D9D4A /* AppStateManager_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager_iOS.swift; sourceTree = "<group>"; };
+		D20B95402CFE19840082A547 /* UpsellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsellButton.swift; sourceTree = "<group>"; };
+		D20B95492CFE61FB0082A547 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D20BB4F92912BDC600BC9A24 /* UpgradeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeButtonView.swift; sourceTree = "<group>"; };
+		D20BB4FC2912BE6F00BC9A24 /* UpgradeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeButtonStyle.swift; sourceTree = "<group>"; };
+		D20DF8CD2CDBE30F00BBE4DF /* UIView+Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Rotate.swift"; sourceTree = "<group>"; };
+		D21987182D09836600E76B4F /* UserDefaults+CustomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+CustomObject.swift"; sourceTree = "<group>"; };
+		D21987DE2D099A0500E76B4F /* LootBox-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LootBox-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21987E02D09A7FD00E76B4F /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
+		D22287B628EFF40C00296E0E /* Array+SafeAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SafeAccess.swift"; sourceTree = "<group>"; };
+		D22287BA28F2993A00296E0E /* Array+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Remove.swift"; sourceTree = "<group>"; };
+		D22287BE28F3297F00296E0E /* CanvasViewModel_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel_macOS.swift; sourceTree = "<group>"; };
+		D22287C028F32C9900296E0E /* TraitsViewModel_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitsViewModel_macOS.swift; sourceTree = "<group>"; };
+		D2263F8B2CC0156C00CF6CF4 /* NftRenderer_macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NftRenderer_macOS.swift; sourceTree = "<group>"; };
+		D2263F8D2CC0158D00CF6CF4 /* NftRenderer_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftRenderer_iOS.swift; sourceTree = "<group>"; };
+		D2263F902CC01E9100CF6CF4 /* CancelExportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelExportButton.swift; sourceTree = "<group>"; };
+		D22C6A242CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Convenience_iOS.swift"; sourceTree = "<group>"; };
+		D22C6A2A2CFAFAEF0064B775 /* MetadataExporter_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataExporter_iOS.swift; sourceTree = "<group>"; };
+		D239B05B2A1EAF670039D2E9 /* MintButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintButtonStyle.swift; sourceTree = "<group>"; };
+		D23AB77D2D3B98A60098F17D /* ContentView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_macOS.swift; sourceTree = "<group>"; };
+		D23AB7832D3B98FF0098F17D /* OnboardingView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView_macOS.swift; sourceTree = "<group>"; };
+		D23AB7882D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_macOS.swift; sourceTree = "<group>"; };
+		D23AB78E2D3BBA090098F17D /* UserDefaults+Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Key.swift"; sourceTree = "<group>"; };
+		D23B4C0628E7839200540103 /* CloseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonView.swift; sourceTree = "<group>"; };
+		D23B4C0828E7842E00540103 /* Image+SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbols.swift"; sourceTree = "<group>"; };
+		D23BD23D2D0DD62300A874B4 /* UIColorValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorValueTransformer.swift; sourceTree = "<group>"; };
+		D23BD2432D0DDA2900A874B4 /* CGRectValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectValueTransformer.swift; sourceTree = "<group>"; };
+		D23BD2482D0DDADE00A874B4 /* UIImageValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageValueTransformer.swift; sourceTree = "<group>"; };
+		D23BD24D2D0DDE7D00A874B4 /* CGPointValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointValueTransformer.swift; sourceTree = "<group>"; };
+		D245EEC528E7466200448803 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		D245EECC28E746FB00448803 /* TraitsPanelView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitsPanelView_macOS.swift; sourceTree = "<group>"; };
+		D245EECE28E7470900448803 /* TraitView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitView_macOS.swift; sourceTree = "<group>"; };
+		D245EED028E7474200448803 /* SettingsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPanelView.swift; sourceTree = "<group>"; };
+		D245EED528E7479100448803 /* AppStateManager_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager_macOS.swift; sourceTree = "<group>"; };
+		D245EEDA28E747F900448803 /* TraitModel_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitModel_macOS.swift; sourceTree = "<group>"; };
+		D245EEDC28E7486B00448803 /* OddsSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsSliderView.swift; sourceTree = "<group>"; };
+		D245EEDF28E7488400448803 /* AddTraitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTraitButton.swift; sourceTree = "<group>"; };
+		D245EEE528E7491000448803 /* Font+Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Pallete.swift"; sourceTree = "<group>"; };
+		D245EEEA28E74DDD00448803 /* ImageViewModel_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel_macOS.swift; sourceTree = "<group>"; };
+		D245EEEC28E7579100448803 /* CanvasTraitImageView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTraitImageView_macOS.swift; sourceTree = "<group>"; };
+		D245EEEE28E75E1E00448803 /* Color+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Random.swift"; sourceTree = "<group>"; };
+		D245EEF128E75F5E00448803 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		D245EEF328E764F400448803 /* LayerPositionStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerPositionStepperView.swift; sourceTree = "<group>"; };
+		D245EEF528E7705600448803 /* BigActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigActionButtonStyle.swift; sourceTree = "<group>"; };
+		D245EEF828E779B500448803 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		D245EEFA28E77A9700448803 /* ImagePickerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerButtonStyle.swift; sourceTree = "<group>"; };
+		D2491E0F2F7C26B00041BB1A /* Settings-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Settings-Debug.xcconfig"; sourceTree = "<group>"; };
+		D2491E102F7C276F0041BB1A /* Settings-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Settings-Release.xcconfig"; sourceTree = "<group>"; };
+		D2491E112F7C28050041BB1A /* Bundle+Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Config.swift"; sourceTree = "<group>"; };
+		D24BE1692D20B70C0046850F /* ResetRotationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetRotationButton.swift; sourceTree = "<group>"; };
+		D25A8D0C2A1FE13C00BAFA82 /* FeatureFlagObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlagObserver.swift; sourceTree = "<group>"; };
+		D25BED9A2920F98A00F8745B /* OpenNFT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenNFT-Info.plist"; sourceTree = "<group>"; };
+		D25BED9B2920F9BE00F8745B /* OpenNFT-Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenNFT-Pro-Info.plist"; sourceTree = "<group>"; };
+		D25E8E1E2911F35200E5C3E4 /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
+		D25E8EB82911F44B00E5C3E4 /* OpenNFT-PRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenNFT-PRO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2616AB628E69AE000E70104 /* OpenNFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenNFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2616AB928E69AE000E70104 /* LootBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootBoxApp.swift; sourceTree = "<group>"; };
+		D2616ABB28E69AE000E70104 /* MainView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView_iOS.swift; sourceTree = "<group>"; };
+		D2616ABD28E69AE100E70104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2616AC028E69AE100E70104 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2616AC228E69AE100E70104 /* LootBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LootBox.entitlements; sourceTree = "<group>"; };
+		D26220BB2CF114880087BCA8 /* KeychainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		D26220C42CF11EB90087BCA8 /* String+Nonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Nonce.swift"; sourceTree = "<group>"; };
+		D26220C72CF11EE20087BCA8 /* String+Sha256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Sha256.swift"; sourceTree = "<group>"; };
+		D26220CB2CF136150087BCA8 /* OnboardingView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView_iOS.swift; sourceTree = "<group>"; };
+		D26220CF2CF136510087BCA8 /* OnboardingView.PageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.PageView_iOS.swift; sourceTree = "<group>"; };
+		D26220D82CF141660087BCA8 /* Onboarding.Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.Dots.swift; sourceTree = "<group>"; };
+		D26220DB2CF143860087BCA8 /* ContentView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_iOS.swift; sourceTree = "<group>"; };
+		D26220DF2CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+Pallete.swift"; sourceTree = "<group>"; };
+		D26446322CC3738B003249DC /* UIApplication+Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Window.swift"; sourceTree = "<group>"; };
+		D26446352CC61063003249DC /* FilePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerView.swift; sourceTree = "<group>"; };
+		D26F963E29C7308C003051C0 /* DropHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropHandler.swift; sourceTree = "<group>"; };
+		D26F964129C732DC003051C0 /* ReorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderButton.swift; sourceTree = "<group>"; };
+		D2807AA92911B11C008E861E /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		D2807AAB2911C6E0008E861E /* Error+Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Domain.swift"; sourceTree = "<group>"; };
+		D28319A02CC6178E00EC041C /* PhotosPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerView.swift; sourceTree = "<group>"; };
+		D28319A62CC61CFF00EC041C /* URL+Filename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Filename.swift"; sourceTree = "<group>"; };
+		D28B4C152D20499800353D82 /* PhoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneButton.swift; sourceTree = "<group>"; };
+		D28B4C1B2D2067FF00353D82 /* MainView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView_macOS.swift; sourceTree = "<group>"; };
+		D292F03E2D1F551000214B9B /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		D292F0442D1F5D3800214B9B /* AppUiModel_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUiModel_macOS.swift; sourceTree = "<group>"; };
+		D29508B22A1E84E200CE562F /* NFTMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTMetadata.swift; sourceTree = "<group>"; };
+		D29508BB2A1E952800CE562F /* Web3Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3Utils.swift; sourceTree = "<group>"; };
+		D29E1C6C2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitEditMenu_iOS.swift; sourceTree = "<group>"; };
+		D29E1C6F2CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTraitImageView_iOS.swift; sourceTree = "<group>"; };
+		D29E1C8D2CCE4AA900C6AB1D /* TraitModel_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitModel_iOS.swift; sourceTree = "<group>"; };
+		D29E1C942CCE75E600C6AB1D /* TraitsViewModel_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitsViewModel_iOS.swift; sourceTree = "<group>"; };
+		D29E1C972CCE7E4700C6AB1D /* EditOption_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOption_iOS.swift; sourceTree = "<group>"; };
+		D29E1C9A2CCEA51500C6AB1D /* ImagesGridView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGridView_iOS.swift; sourceTree = "<group>"; };
+		D29E1C9E2CCEA55C00C6AB1D /* TraitImageView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitImageView_iOS.swift; sourceTree = "<group>"; };
+		D29E1CA12CCEA94600C6AB1D /* TraitImageView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitImageView_macOS.swift; sourceTree = "<group>"; };
+		D2A0B7082CE008B8002419A0 /* TraitEditHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitEditHUD.swift; sourceTree = "<group>"; };
+		D2A822AF2CD4B5EE00294C56 /* ImageViewModel_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel_iOS.swift; sourceTree = "<group>"; };
+		D2A9ED9F2D0B876D00350F3D /* LootBoxPRO-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LootBoxPRO-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AB322E2CEF012E00FA8C4F /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		D2AB32332CEF016000FA8C4F /* AppStateManager.ScreenType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.ScreenType.swift; sourceTree = "<group>"; };
+		D2AB32362CEF018400FA8C4F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D2AB32402CEF073800FA8C4F /* Namespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namespace.swift; sourceTree = "<group>"; };
+		D2AB32432CEF116400FA8C4F /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		D2AB32462CEF12CB00FA8C4F /* Image+Pallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Pallete.swift"; sourceTree = "<group>"; };
+		D2AB32492CEF136000FA8C4F /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		D2AB324E2CEF178600FA8C4F /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
+		D2AB32512CEF17C200FA8C4F /* View+Navigation_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation_iOS.swift"; sourceTree = "<group>"; };
+		D2B1DF0E2CEDC65000DBC642 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D2BFEAF52CD3612E004E4557 /* OddsSliderView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsSliderView_iOS.swift; sourceTree = "<group>"; };
+		D2C43F0F29FFF843005CC925 /* NFTPortService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTPortService.swift; sourceTree = "<group>"; };
+		D2C43F1229FFF926005CC925 /* NFTPort.Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTPort.Endpoint.swift; sourceTree = "<group>"; };
+		D2C43F1529FFFA08005CC925 /* NFTPort.Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTPort.Response.swift; sourceTree = "<group>"; };
+		D2C43F1829FFFA86005CC925 /* NFTPort.Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTPort.Error.swift; sourceTree = "<group>"; };
+		D2C43F1B29FFFED5005CC925 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D2C43F1E2A0015FD005CC925 /* NftMinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftMinter.swift; sourceTree = "<group>"; };
+		D2C71F672CF4FE7200BE23A3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D2C71F6A2CF5060400BE23A3 /* SubscriptionService_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService_iOS.swift; sourceTree = "<group>"; };
+		D2CD6D562CD60C69005589CE /* CanvasViewModel_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel_iOS.swift; sourceTree = "<group>"; };
+		D2CD6D5A2CD60EF1005589CE /* MagnifyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyMenuView.swift; sourceTree = "<group>"; };
+		D2CD6D5D2CD62402005589CE /* View+Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Tile.swift"; sourceTree = "<group>"; };
+		D2CD6D612CD64F5C005589CE /* TraitSettingsMenu_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitSettingsMenu_iOS.swift; sourceTree = "<group>"; };
+		D2CD6D652CD65171005589CE /* EditMoreMenu_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMoreMenu_iOS.swift; sourceTree = "<group>"; };
+		D2CD6D692CD658E3005589CE /* SettingsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu.swift; sourceTree = "<group>"; };
+		D2D3446D29BBA2AA003D8E66 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		D2D471232D0B7BEA00E0AF73 /* OnboardingView.Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.Page.swift; sourceTree = "<group>"; };
+		D2E041442D09BB6500C01299 /* AppAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlert.swift; sourceTree = "<group>"; };
+		D2E3663228F5464F009C1981 /* ImagesGridView_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGridView_macOS.swift; sourceTree = "<group>"; };
+		D2E985D02CFB23650036D2E4 /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
+		D2F0901728FD06A200AB5711 /* Binding+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Optional.swift"; sourceTree = "<group>"; };
+		D2F0901E29051EAB00AB5711 /* View+NSWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+NSWindow.swift"; sourceTree = "<group>"; };
+		D2F090222905210E00AB5711 /* NumberOfItemsInputView_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfItemsInputView_iOS.swift; sourceTree = "<group>"; };
+		D2F0902B29053C1A00AB5711 /* TraitGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitGenerator.swift; sourceTree = "<group>"; };
+		D2F0902D29054E2B00AB5711 /* NSImage+CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+CGImage.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21987B02D099A0500E76B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24D196E2D23F390008A6AF9 /* RevenueCatUI in Frameworks */,
+				D24D196D2D23F390008A6AF9 /* RevenueCat in Frameworks */,
+				D24D196C2D23F390008A6AF9 /* ReceiptParser in Frameworks */,
+				D21987B52D099A0500E76B4F /* StoreKit.framework in Frameworks */,
+				D21987BC2D099A0500E76B4F /* Mixpanel in Frameworks */,
+				D21987C42D099A0500E76B4F /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25E8EB02911F44B00E5C3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D3446B29BBA11D003D8E66 /* Mixpanel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2616AB328E69AE000E70104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C71F682CF4FE7200BE23A3 /* StoreKit.framework in Frameworks */,
+				D2D3446929BBA107003D8E66 /* Mixpanel in Frameworks */,
+				D268647B2D23F331006035A5 /* RevenueCat in Frameworks */,
+				D2B3BFAA2CFAFD5500CF9656 /* ZIPFoundation in Frameworks */,
+				D268647D2D23F331006035A5 /* RevenueCatUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A9ED942D0B876D00350F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A9ED962D0B876D00350F3D /* Mixpanel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2098B0B2CD6B9FE000D9D4A /* AppStateManager */ = {
+			isa = PBXGroup;
+			children = (
+				D2098B0C2CD6BA0A000D9D4A /* AppStateManager_iOS.swift */,
+				D245EED528E7479100448803 /* AppStateManager_macOS.swift */,
+				D2AB32332CEF016000FA8C4F /* AppStateManager.ScreenType.swift */,
+			);
+			path = AppStateManager;
+			sourceTree = "<group>";
+		};
+		D20BB4F52912035D00BC9A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C71F672CF4FE7200BE23A3 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D20BB4F82912BDB500BC9A24 /* UpgradeButton */ = {
+			isa = PBXGroup;
+			children = (
+				D20BB4F92912BDC600BC9A24 /* UpgradeButtonView.swift */,
+				D20BB4FC2912BE6F00BC9A24 /* UpgradeButtonStyle.swift */,
+			);
+			path = UpgradeButton;
+			sourceTree = "<group>";
+		};
+		D20DF8D02CDBE32200BBE4DF /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D20DF8CD2CDBE30F00BBE4DF /* UIView+Rotate.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D20FFF1C29F574F60022ACA2 /* SettingsPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D245EED028E7474200448803 /* SettingsPanelView.swift */,
+			);
+			path = SettingsPanel;
+			sourceTree = "<group>";
+		};
+		D21987142D09834200E76B4F /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D26220C42CF11EB90087BCA8 /* String+Nonce.swift */,
+				D26220C72CF11EE20087BCA8 /* String+Sha256.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		D2263F8F2CC01E8200CF6CF4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D28B4C1A2D20679100353D82 /* ContentView */,
+				D2AB32292CEEFFE100FA8C4F /* Onboarding */,
+				D2A0B7012CE0088B002419A0 /* TraitEditHUD */,
+				D2CD6D682CD658D2005589CE /* SettingsMenu */,
+				D2CD6D642CD6510A005589CE /* EditMoreMenu */,
+				D2CD6D602CD64F4C005589CE /* TraitEditMenu */,
+				D2CD6D592CD60EDD005589CE /* MagnifyMenu */,
+				D2F090292905334400AB5711 /* MainScreen */,
+				D20FFF1C29F574F60022ACA2 /* SettingsPanel */,
+				D245EED728E7479600448803 /* PropertiesPanel */,
+				D245EED828E7479B00448803 /* Canvas */,
+				D2EC06C72CC1831000FEE757 /* Button */,
+				D2AB324E2CEF178600FA8C4F /* Separator.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D22B53B828E835790010E7DB /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				D245EECE28E7470900448803 /* TraitView_macOS.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		D22B53B928E835EF0010E7DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D292F0432D1F5CD900214B9B /* AppUiModel */,
+				D292F03D2D1F54EF00214B9B /* SettingsModel */,
+				D2CD6D552CD60C60005589CE /* CanvasModel */,
+				D2A822AE2CD4B5E600294C56 /* ImageViewModel */,
+				D29E1C972CCE7E4700C6AB1D /* EditOption_iOS.swift */,
+				D29E1C8C2CCE4A9D00C6AB1D /* TraitModel */,
+				D29E1C932CCE75DE00C6AB1D /* TraitsViewModel */,
+				D29508B22A1E84E200CE562F /* NFTMetadata.swift */,
+				D25A8D0C2A1FE13C00BAFA82 /* FeatureFlagObserver.swift */,
+				D2AB32362CEF018400FA8C4F /* User.swift */,
+				D2AB32402CEF073800FA8C4F /* Namespace.swift */,
+				D2E041442D09BB6500C01299 /* AppAlert.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D22B53BA28E836050010E7DB /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEF828E779B500448803 /* ImagePickerView.swift */,
+				D245EEFA28E77A9700448803 /* ImagePickerButtonStyle.swift */,
+				D26446352CC61063003249DC /* FilePickerView.swift */,
+				D28319A02CC6178E00EC041C /* PhotosPickerView.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		D22B53BB28E836120010E7DB /* AddTrait */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEDF28E7488400448803 /* AddTraitButton.swift */,
+				D245EEF528E7705600448803 /* BigActionButtonStyle.swift */,
+			);
+			path = AddTrait;
+			sourceTree = "<group>";
+		};
+		D22B53BC28E8362B0010E7DB /* OddsSlider */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEDC28E7486B00448803 /* OddsSliderView.swift */,
+				D2BFEAF52CD3612E004E4557 /* OddsSliderView_iOS.swift */,
+			);
+			path = OddsSlider;
+			sourceTree = "<group>";
+		};
+		D22B53BD28E836330010E7DB /* LayerPositionStepper */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEF328E764F400448803 /* LayerPositionStepperView.swift */,
+			);
+			path = LayerPositionStepper;
+			sourceTree = "<group>";
+		};
+		D22B53BE28E8364B0010E7DB /* CloseButton */ = {
+			isa = PBXGroup;
+			children = (
+				D23B4C0628E7839200540103 /* CloseButtonView.swift */,
+			);
+			path = CloseButton;
+			sourceTree = "<group>";
+		};
+		D22C6A2D2CFAFB7F0064B775 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				D22C6A2A2CFAFAEF0064B775 /* MetadataExporter_iOS.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		D235ABC22913BAE000311050 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D2C71F692CF505F500BE23A3 /* Subscription */,
+				D2C43F0E29FFF834005CC925 /* NFTPort */,
+				D2D3446C29BBA298003D8E66 /* Mixpanel */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D239B05A2A1EAF560039D2E9 /* MintButton */ = {
+			isa = PBXGroup;
+			children = (
+				D239B05B2A1EAF670039D2E9 /* MintButtonStyle.swift */,
+			);
+			path = MintButton;
+			sourceTree = "<group>";
+		};
+		D23AB7822D3B98F70098F17D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D26220CB2CF136150087BCA8 /* OnboardingView_iOS.swift */,
+				D23AB7832D3B98FF0098F17D /* OnboardingView_macOS.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D23AB78D2D3BBA040098F17D /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				D21987182D09836600E76B4F /* UserDefaults+CustomObject.swift */,
+				D23AB78E2D3BBA090098F17D /* UserDefaults+Key.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		D23BD2422D0DD9FD00A874B4 /* ValueTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				D23BD23D2D0DD62300A874B4 /* UIColorValueTransformer.swift */,
+				D23BD2482D0DDADE00A874B4 /* UIImageValueTransformer.swift */,
+				D23BD24D2D0DDE7D00A874B4 /* CGPointValueTransformer.swift */,
+				D23BD2432D0DDA2900A874B4 /* CGRectValueTransformer.swift */,
+			);
+			path = ValueTransformer;
+			sourceTree = "<group>";
+		};
+		D245EEC828E7468A00448803 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D20B95492CFE61FB0082A547 /* Localizable.xcstrings */,
+				D2616ABD28E69AE100E70104 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D245EEC928E7469100448803 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D2263F8F2CC01E8200CF6CF4 /* UI */,
+				D22B53B928E835EF0010E7DB /* Data */,
+				D245EED228E7477800448803 /* Services */,
+				D245EEE428E7490300448803 /* Extensions */,
+				D245EEF028E75F4E00448803 /* Mock */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D245EED228E7477800448803 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D23BD2422D0DD9FD00A874B4 /* ValueTransformer */,
+				D22C6A2D2CFAFB7F0064B775 /* Export */,
+				D2AB32312CEF014C00FA8C4F /* Navigation */,
+				D2098B0B2CD6B9FE000D9D4A /* AppStateManager */,
+				D273B7272CC0152F00069B2C /* Render */,
+				D2F0902B29053C1A00AB5711 /* TraitGenerator.swift */,
+				D26220BB2CF114880087BCA8 /* KeychainItem.swift */,
+				D25E8E1E2911F35200E5C3E4 /* AppVersion.swift */,
+				D2C43F1B29FFFED5005CC925 /* Logger.swift */,
+				D2C43F1E2A0015FD005CC925 /* NftMinter.swift */,
+				D29508BB2A1E952800CE562F /* Web3Utils.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D245EED728E7479600448803 /* PropertiesPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D26F963D29C7307F003051C0 /* DragDrop */,
+				D245EECC28E746FB00448803 /* TraitsPanelView_macOS.swift */,
+				D22B53B828E835790010E7DB /* Property */,
+				D245EEE728E749EC00448803 /* Components */,
+			);
+			path = PropertiesPanel;
+			sourceTree = "<group>";
+		};
+		D245EED828E7479B00448803 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEC528E7466200448803 /* CanvasView.swift */,
+				D245EEF728E7736500448803 /* Components */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		D245EEE428E7490300448803 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D23AB78D2D3BBA040098F17D /* UserDefaults */,
+				D21987142D09834200E76B4F /* String */,
+				D26220DE2CF1DEF00087BCA8 /* Gradient */,
+				D2AB32452CEF12C200FA8C4F /* Image */,
+				D20DF8D02CDBE32200BBE4DF /* UIView */,
+				D2807AA82911B112008E861E /* Color */,
+				D2F0902F29054E6400AB5711 /* NSImage */,
+				D2F0902029051ECB00AB5711 /* Array */,
+				D2F0901D29051EA200AB5711 /* View */,
+				D245EEE528E7491000448803 /* Font+Pallete.swift */,
+				D2F0901728FD06A200AB5711 /* Binding+Optional.swift */,
+				D2807AAB2911C6E0008E861E /* Error+Domain.swift */,
+				D26446322CC3738B003249DC /* UIApplication+Window.swift */,
+				D28319A62CC61CFF00EC041C /* URL+Filename.swift */,
+				D22C6A242CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift */,
+				D2491E112F7C28050041BB1A /* Bundle+Config.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D245EEE728E749EC00448803 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D29E1C9D2CCEA53800C6AB1D /* TraitImageView */,
+				D2F09021290520FD00AB5711 /* NumberInputView */,
+				D2E3662F28F5460B009C1981 /* ImagesGridView */,
+				D22B53BD28E836330010E7DB /* LayerPositionStepper */,
+				D22B53BC28E8362B0010E7DB /* OddsSlider */,
+				D22B53BB28E836120010E7DB /* AddTrait */,
+				D22B53BA28E836050010E7DB /* ImagePicker */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D245EEF028E75F4E00448803 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEF128E75F5E00448803 /* Mock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D245EEF728E7736500448803 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D29E1C722CCE3CA200C6AB1D /* CanvasTraitImageView */,
+				D29E1C6C2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2616AAD28E69AE000E70104 = {
+			isa = PBXGroup;
+			children = (
+				D2616AB828E69AE000E70104 /* LootBox */,
+				D2616AB728E69AE000E70104 /* Products */,
+				D20BB4F52912035D00BC9A24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2616AB728E69AE000E70104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2616AB628E69AE000E70104 /* OpenNFT.app */,
+				D25E8EB82911F44B00E5C3E4 /* OpenNFT-PRO.app */,
+				D21987DE2D099A0500E76B4F /* LootBox-DEV.app */,
+				D2A9ED9F2D0B876D00350F3D /* LootBoxPRO-DEV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2616AB828E69AE000E70104 /* LootBox */ = {
+			isa = PBXGroup;
+			children = (
+				D2616AB928E69AE000E70104 /* LootBoxApp.swift */,
+				D2B1DF0E2CEDC65000DBC642 /* PrivacyInfo.xcprivacy */,
+				D2616AC228E69AE100E70104 /* LootBox.entitlements */,
+				D245EEC928E7469100448803 /* Source */,
+				D245EEC828E7468A00448803 /* Resources */,
+				D235ABC22913BAE000311050 /* Service */,
+				D2616ABF28E69AE100E70104 /* Preview Content */,
+				D2C17DD92CE7074B0072D30E /* Configuration */,
+			);
+			path = LootBox;
+			sourceTree = "<group>";
+		};
+		D2616ABF28E69AE100E70104 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2616AC028E69AE100E70104 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D26220DE2CF1DEF00087BCA8 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				D26220DF2CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		D26220E52CF1E3750087BCA8 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				D23AB7882D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift */,
+				D26220CF2CF136510087BCA8 /* OnboardingView.PageView_iOS.swift */,
+				D2D471232D0B7BEA00E0AF73 /* OnboardingView.Page.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		D26F963D29C7307F003051C0 /* DragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D26F963E29C7308C003051C0 /* DropHandler.swift */,
+			);
+			path = DragDrop;
+			sourceTree = "<group>";
+		};
+		D26F964029C732C2003051C0 /* ReorderButton */ = {
+			isa = PBXGroup;
+			children = (
+				D26F964129C732DC003051C0 /* ReorderButton.swift */,
+			);
+			path = ReorderButton;
+			sourceTree = "<group>";
+		};
+		D273B7272CC0152F00069B2C /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				D2263F8B2CC0156C00CF6CF4 /* NftRenderer_macOS.swift */,
+				D2263F8D2CC0158D00CF6CF4 /* NftRenderer_iOS.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		D2807AA82911B112008E861E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				D2AB32492CEF136000FA8C4F /* Color+Hex.swift */,
+				D245EEEE28E75E1E00448803 /* Color+Random.swift */,
+				D2807AA92911B11C008E861E /* Color+Palette.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		D28B4C1A2D20679100353D82 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				D26220DB2CF143860087BCA8 /* ContentView_iOS.swift */,
+				D23AB77D2D3B98A60098F17D /* ContentView_macOS.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		D292F03D2D1F54EF00214B9B /* SettingsModel */ = {
+			isa = PBXGroup;
+			children = (
+				D292F03E2D1F551000214B9B /* SettingsModel.swift */,
+			);
+			path = SettingsModel;
+			sourceTree = "<group>";
+		};
+		D292F0432D1F5CD900214B9B /* AppUiModel */ = {
+			isa = PBXGroup;
+			children = (
+				D292F0442D1F5D3800214B9B /* AppUiModel_macOS.swift */,
+			);
+			path = AppUiModel;
+			sourceTree = "<group>";
+		};
+		D29E1C722CCE3CA200C6AB1D /* CanvasTraitImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D29E1C6F2CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift */,
+				D245EEEC28E7579100448803 /* CanvasTraitImageView_macOS.swift */,
+			);
+			path = CanvasTraitImageView;
+			sourceTree = "<group>";
+		};
+		D29E1C8C2CCE4A9D00C6AB1D /* TraitModel */ = {
+			isa = PBXGroup;
+			children = (
+				D29E1C8D2CCE4AA900C6AB1D /* TraitModel_iOS.swift */,
+				D245EEDA28E747F900448803 /* TraitModel_macOS.swift */,
+			);
+			path = TraitModel;
+			sourceTree = "<group>";
+		};
+		D29E1C932CCE75DE00C6AB1D /* TraitsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D22287C028F32C9900296E0E /* TraitsViewModel_macOS.swift */,
+				D29E1C942CCE75E600C6AB1D /* TraitsViewModel_iOS.swift */,
+			);
+			path = TraitsViewModel;
+			sourceTree = "<group>";
+		};
+		D29E1C9D2CCEA53800C6AB1D /* TraitImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D29E1C9E2CCEA55C00C6AB1D /* TraitImageView_iOS.swift */,
+				D29E1CA12CCEA94600C6AB1D /* TraitImageView_macOS.swift */,
+			);
+			path = TraitImageView;
+			sourceTree = "<group>";
+		};
+		D2A0B7012CE0088B002419A0 /* TraitEditHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0B7082CE008B8002419A0 /* TraitEditHUD.swift */,
+			);
+			path = TraitEditHUD;
+			sourceTree = "<group>";
+		};
+		D2A822AE2CD4B5E600294C56 /* ImageViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D245EEEA28E74DDD00448803 /* ImageViewModel_macOS.swift */,
+				D2A822AF2CD4B5EE00294C56 /* ImageViewModel_iOS.swift */,
+			);
+			path = ImageViewModel;
+			sourceTree = "<group>";
+		};
+		D2AB32292CEEFFE100FA8C4F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D23AB7822D3B98F70098F17D /* Main */,
+				D26220D82CF141660087BCA8 /* Onboarding.Dots.swift */,
+				D26220E52CF1E3750087BCA8 /* Page */,
+				D2AB32432CEF116400FA8C4F /* SignInButton.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D2AB32312CEF014C00FA8C4F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D2AB322E2CEF012E00FA8C4F /* NavigationManager.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D2AB32452CEF12C200FA8C4F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D2AB32462CEF12CB00FA8C4F /* Image+Pallete.swift */,
+				D23B4C0828E7842E00540103 /* Image+SFSymbols.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D2C17DD92CE7074B0072D30E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D2491E0F2F7C26B00041BB1A /* Settings-Debug.xcconfig */,
+				D2491E102F7C276F0041BB1A /* Settings-Release.xcconfig */,
+				D25BED9A2920F98A00F8745B /* OpenNFT-Info.plist */,
+				D25BED9B2920F9BE00F8745B /* OpenNFT-Pro-Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D2C43F0E29FFF834005CC925 /* NFTPort */ = {
+			isa = PBXGroup;
+			children = (
+				D2C43F0F29FFF843005CC925 /* NFTPortService.swift */,
+				D2C43F1229FFF926005CC925 /* NFTPort.Endpoint.swift */,
+				D2C43F1529FFFA08005CC925 /* NFTPort.Response.swift */,
+				D2C43F1829FFFA86005CC925 /* NFTPort.Error.swift */,
+			);
+			path = NFTPort;
+			sourceTree = "<group>";
+		};
+		D2C71F692CF505F500BE23A3 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				D2C71F6A2CF5060400BE23A3 /* SubscriptionService_iOS.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		D2CD6D552CD60C60005589CE /* CanvasModel */ = {
+			isa = PBXGroup;
+			children = (
+				D22287BE28F3297F00296E0E /* CanvasViewModel_macOS.swift */,
+				D2CD6D562CD60C69005589CE /* CanvasViewModel_iOS.swift */,
+			);
+			path = CanvasModel;
+			sourceTree = "<group>";
+		};
+		D2CD6D592CD60EDD005589CE /* MagnifyMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D5A2CD60EF1005589CE /* MagnifyMenuView.swift */,
+			);
+			path = MagnifyMenu;
+			sourceTree = "<group>";
+		};
+		D2CD6D602CD64F4C005589CE /* TraitEditMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D612CD64F5C005589CE /* TraitSettingsMenu_iOS.swift */,
+			);
+			path = TraitEditMenu;
+			sourceTree = "<group>";
+		};
+		D2CD6D642CD6510A005589CE /* EditMoreMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D652CD65171005589CE /* EditMoreMenu_iOS.swift */,
+			);
+			path = EditMoreMenu;
+			sourceTree = "<group>";
+		};
+		D2CD6D682CD658D2005589CE /* SettingsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D692CD658E3005589CE /* SettingsMenu.swift */,
+			);
+			path = SettingsMenu;
+			sourceTree = "<group>";
+		};
+		D2D3446C29BBA298003D8E66 /* Mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				D2D3446D29BBA2AA003D8E66 /* Analytics.swift */,
+			);
+			path = Mixpanel;
+			sourceTree = "<group>";
+		};
+		D2E3662F28F5460B009C1981 /* ImagesGridView */ = {
+			isa = PBXGroup;
+			children = (
+				D2E3663228F5464F009C1981 /* ImagesGridView_macOS.swift */,
+				D29E1C9A2CCEA51500C6AB1D /* ImagesGridView_iOS.swift */,
+			);
+			path = ImagesGridView;
+			sourceTree = "<group>";
+		};
+		D2EC06C72CC1831000FEE757 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D21987E02D09A7FD00E76B4F /* BasicButton.swift */,
+				D20B95402CFE19840082A547 /* UpsellButton.swift */,
+				D2263F902CC01E9100CF6CF4 /* CancelExportButton.swift */,
+				D20BB4F82912BDB500BC9A24 /* UpgradeButton */,
+				D28B4C152D20499800353D82 /* PhoneButton.swift */,
+				D22B53BE28E8364B0010E7DB /* CloseButton */,
+				D26F964029C732C2003051C0 /* ReorderButton */,
+				D239B05A2A1EAF560039D2E9 /* MintButton */,
+				D24BE1692D20B70C0046850F /* ResetRotationButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		D2F0901D29051EA200AB5711 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2AB32512CEF17C200FA8C4F /* View+Navigation_iOS.swift */,
+				D2CD6D5D2CD62402005589CE /* View+Tile.swift */,
+				D204921728E79A28005B75DC /* View+ConditionalModifier.swift */,
+				D2F0901E29051EAB00AB5711 /* View+NSWindow.swift */,
+				D2E985D02CFB23650036D2E4 /* View+Placeholder.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2F0902029051ECB00AB5711 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				D22287B628EFF40C00296E0E /* Array+SafeAccess.swift */,
+				D22287BA28F2993A00296E0E /* Array+Remove.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		D2F09021290520FD00AB5711 /* NumberInputView */ = {
+			isa = PBXGroup;
+			children = (
+				D2F090222905210E00AB5711 /* NumberOfItemsInputView_iOS.swift */,
+				D2098B082CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift */,
+			);
+			path = NumberInputView;
+			sourceTree = "<group>";
+		};
+		D2F090292905334400AB5711 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D28B4C1B2D2067FF00353D82 /* MainView_macOS.swift */,
+				D2616ABB28E69AE000E70104 /* MainView_iOS.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		D2F0902F29054E6400AB5711 /* NSImage */ = {
+			isa = PBXGroup;
+			children = (
+				D2F0902D29054E2B00AB5711 /* NSImage+CGImage.swift */,
+				D204921B28E7A0A2005B75DC /* NSImage+Png.swift */,
+			);
+			path = NSImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D219871B2D099A0500E76B4F /* LootBox-DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21987DB2D099A0500E76B4F /* Build configuration list for PBXNativeTarget "LootBox-DEV" */;
+			buildPhases = (
+				D21987432D099A0500E76B4F /* Sources */,
+				D21987B02D099A0500E76B4F /* Frameworks */,
+				D21987D32D099A0500E76B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LootBox-DEV";
+			packageProductDependencies = (
+				D219871C2D099A0500E76B4F /* Mixpanel */,
+				D219873C2D099A0500E76B4F /* ReceiptParser */,
+				D219873E2D099A0500E76B4F /* RevenueCat */,
+				D219873F2D099A0500E76B4F /* RevenueCatUI */,
+				D21987412D099A0500E76B4F /* ZIPFoundation */,
+			);
+			productName = LootBox;
+			productReference = D21987DE2D099A0500E76B4F /* LootBox-DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D25E8E862911F44B00E5C3E4 /* OpenNFT-PRO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25E8EB52911F44B00E5C3E4 /* Build configuration list for PBXNativeTarget "OpenNFT-PRO" */;
+			buildPhases = (
+				D25E8E872911F44B00E5C3E4 /* Sources */,
+				D25E8EB02911F44B00E5C3E4 /* Frameworks */,
+				D25E8EB12911F44B00E5C3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenNFT-PRO";
+			packageProductDependencies = (
+				D2D3446A29BBA11D003D8E66 /* Mixpanel */,
+			);
+			productName = LootBox;
+			productReference = D25E8EB82911F44B00E5C3E4 /* OpenNFT-PRO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2616AB528E69AE000E70104 /* OpenNFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2616AC528E69AE100E70104 /* Build configuration list for PBXNativeTarget "OpenNFT" */;
+			buildPhases = (
+				D2616AB228E69AE000E70104 /* Sources */,
+				D2616AB328E69AE000E70104 /* Frameworks */,
+				D2616AB428E69AE000E70104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenNFT;
+			packageProductDependencies = (
+				D2D3446829BBA107003D8E66 /* Mixpanel */,
+				D2B3BFA92CFAFD5500CF9656 /* ZIPFoundation */,
+				D268647A2D23F331006035A5 /* RevenueCat */,
+				D268647C2D23F331006035A5 /* RevenueCatUI */,
+			);
+			productName = LootBox;
+			productReference = D2616AB628E69AE000E70104 /* OpenNFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A9ED242D0B876D00350F3D /* LootBoxPRO-DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A9ED9C2D0B876D00350F3D /* Build configuration list for PBXNativeTarget "LootBoxPRO-DEV" */;
+			buildPhases = (
+				D2A9ED292D0B876D00350F3D /* Sources */,
+				D2A9ED942D0B876D00350F3D /* Frameworks */,
+				D2A9ED972D0B876D00350F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LootBoxPRO-DEV";
+			packageProductDependencies = (
+				D2A9ED252D0B876D00350F3D /* Mixpanel */,
+			);
+			productName = LootBox;
+			productReference = D2A9ED9F2D0B876D00350F3D /* LootBoxPRO-DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2616AAE28E69AE000E70104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					D2616AB528E69AE000E70104 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D2616AB128E69AE000E70104 /* Build configuration list for PBXProject "LootBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+				es,
+				it,
+				ar,
+				th,
+				ms,
+				fil,
+				"zh-Hant",
+				ja,
+				be,
+				he,
+				ru,
+				hi,
+				id,
+				da,
+			);
+			mainGroup = D2616AAD28E69AE000E70104;
+			packageReferences = (
+				D2D3446729BBA107003D8E66 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+				D2B3BFA82CFAFD5500CF9656 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				D26864792D23F331006035A5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			productRefGroup = D2616AB728E69AE000E70104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2616AB528E69AE000E70104 /* OpenNFT */,
+				D219871B2D099A0500E76B4F /* LootBox-DEV */,
+				D25E8E862911F44B00E5C3E4 /* OpenNFT-PRO */,
+				D2A9ED242D0B876D00350F3D /* LootBoxPRO-DEV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21987D32D099A0500E76B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21987D42D099A0500E76B4F /* Preview Assets.xcassets in Resources */,
+				D21987D62D099A0500E76B4F /* Localizable.xcstrings in Resources */,
+				D21987D82D099A0500E76B4F /* Assets.xcassets in Resources */,
+				D21987DA2D099A0500E76B4F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25E8EB12911F44B00E5C3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25E8EB22911F44B00E5C3E4 /* Preview Assets.xcassets in Resources */,
+				D20B954B2CFE61FB0082A547 /* Localizable.xcstrings in Resources */,
+				D25BED9C292232D100F8745B /* Assets.xcassets in Resources */,
+				D2B1DF102CEDC65000DBC642 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2616AB428E69AE000E70104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2616AC128E69AE100E70104 /* Preview Assets.xcassets in Resources */,
+				D20B954A2CFE61FB0082A547 /* Localizable.xcstrings in Resources */,
+				D25BED9D292232DA00F8745B /* Assets.xcassets in Resources */,
+				D2B1DF0F2CEDC65000DBC642 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A9ED972D0B876D00350F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A9ED982D0B876D00350F3D /* Preview Assets.xcassets in Resources */,
+				D2A9ED992D0B876D00350F3D /* Localizable.xcstrings in Resources */,
+				D2A9ED9A2D0B876D00350F3D /* Assets.xcassets in Resources */,
+				D2A9ED9B2D0B876D00350F3D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21987432D099A0500E76B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21987442D099A0500E76B4F /* SettingsPanelView.swift in Sources */,
+				D21987452D099A0500E76B4F /* TraitModel_iOS.swift in Sources */,
+				D21987462D099A0500E76B4F /* ReorderButton.swift in Sources */,
+				D21987492D099A0500E76B4F /* Color+Random.swift in Sources */,
+				D219874A2D099A0500E76B4F /* SignInButton.swift in Sources */,
+				D23AB7912D3BBA090098F17D /* UserDefaults+Key.swift in Sources */,
+				D219874B2D099A0500E76B4F /* NftRenderer_macOS.swift in Sources */,
+				D28B4C182D20499800353D82 /* PhoneButton.swift in Sources */,
+				D2D471252D0B7BEA00E0AF73 /* OnboardingView.Page.swift in Sources */,
+				D219874C2D099A0500E76B4F /* UIView+Rotate.swift in Sources */,
+				D219874D2D099A0500E76B4F /* AppVersion.swift in Sources */,
+				D219874E2D099A0500E76B4F /* User.swift in Sources */,
+				D2E041462D09BB6500C01299 /* AppAlert.swift in Sources */,
+				D219874F2D099A0500E76B4F /* CanvasTraitImageView_macOS.swift in Sources */,
+				D21987502D099A0500E76B4F /* TraitImageView_macOS.swift in Sources */,
+				D21987512D099A0500E76B4F /* UIApplication+Window.swift in Sources */,
+				D21987522D099A0500E76B4F /* PhotosPickerView.swift in Sources */,
+				D21987532D099A0500E76B4F /* CanvasViewModel_iOS.swift in Sources */,
+				D23AB77F2D3B98A60098F17D /* ContentView_macOS.swift in Sources */,
+				D21987542D099A0500E76B4F /* MainView_iOS.swift in Sources */,
+				D21987552D099A0500E76B4F /* Binding+Optional.swift in Sources */,
+				D21987562D099A0500E76B4F /* TraitEditMenu_iOS.swift in Sources */,
+				D21987572D099A0500E76B4F /* NumberOfItemsInputView_iOS.swift in Sources */,
+				D21987582D099A0500E76B4F /* FilePickerView.swift in Sources */,
+				D21987592D099A0500E76B4F /* SubscriptionService_iOS.swift in Sources */,
+				D219875A2D099A0500E76B4F /* NftRenderer_iOS.swift in Sources */,
+				D23BD2472D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */,
+				D219875B2D099A0500E76B4F /* AppStateManager_iOS.swift in Sources */,
+				D219875C2D099A0500E76B4F /* URL+Filename.swift in Sources */,
+				D219875D2D099A0500E76B4F /* ContentView_iOS.swift in Sources */,
+				D219875E2D099A0500E76B4F /* ImagePickerButtonStyle.swift in Sources */,
+				D21987602D099A0500E76B4F /* NSImage+CGImage.swift in Sources */,
+				D21987612D099A0500E76B4F /* DropHandler.swift in Sources */,
+				D2491E122F7C28050041BB1A /* Bundle+Config.swift in Sources */,
+				D23BD24F2D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */,
+				D21987622D099A0500E76B4F /* Color+Palette.swift in Sources */,
+				D21987632D099A0500E76B4F /* TraitSettingsMenu_iOS.swift in Sources */,
+				D21987642D099A0500E76B4F /* MetadataExporter_iOS.swift in Sources */,
+				D21987652D099A0500E76B4F /* Color+Hex.swift in Sources */,
+				D21987662D099A0500E76B4F /* ImagesGridView_macOS.swift in Sources */,
+				D21987672D099A0500E76B4F /* ImagePickerView.swift in Sources */,
+				D21987682D099A0500E76B4F /* NFTPort.Error.swift in Sources */,
+				D21987692D099A0500E76B4F /* OnboardingView.PageView_iOS.swift in Sources */,
+				D219876A2D099A0500E76B4F /* String+Nonce.swift in Sources */,
+				D219876B2D099A0500E76B4F /* AddTraitButton.swift in Sources */,
+				D219876C2D099A0500E76B4F /* NFTMetadata.swift in Sources */,
+				D219876D2D099A0500E76B4F /* ImagesGridView_iOS.swift in Sources */,
+				D219876E2D099A0500E76B4F /* TraitsPanelView_macOS.swift in Sources */,
+				D219876F2D099A0500E76B4F /* TraitGenerator.swift in Sources */,
+				D21987702D099A0500E76B4F /* UIDevice+Convenience_iOS.swift in Sources */,
+				D21987712D099A0500E76B4F /* Image+SFSymbols.swift in Sources */,
+				D21987722D099A0500E76B4F /* BigActionButtonStyle.swift in Sources */,
+				D21987732D099A0500E76B4F /* MagnifyMenuView.swift in Sources */,
+				D21987742D099A0500E76B4F /* LootBoxApp.swift in Sources */,
+				D21987752D099A0500E76B4F /* Logger.swift in Sources */,
+				D21987E22D09A7FD00E76B4F /* BasicButton.swift in Sources */,
+				D21987762D099A0500E76B4F /* UserDefaults+CustomObject.swift in Sources */,
+				D21987772D099A0500E76B4F /* ImageViewModel_iOS.swift in Sources */,
+				D21987782D099A0500E76B4F /* OnboardingView_iOS.swift in Sources */,
+				D21987792D099A0500E76B4F /* NFTPort.Response.swift in Sources */,
+				D219877A2D099A0500E76B4F /* UpgradeButtonView.swift in Sources */,
+				D219877C2D099A0500E76B4F /* Error+Domain.swift in Sources */,
+				D23AB7852D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */,
+				D219877D2D099A0500E76B4F /* Font+Pallete.swift in Sources */,
+				D219877E2D099A0500E76B4F /* ImageViewModel_macOS.swift in Sources */,
+				D219877F2D099A0500E76B4F /* Web3Utils.swift in Sources */,
+				D24BE16D2D20B70C0046850F /* ResetRotationButton.swift in Sources */,
+				D21987812D099A0500E76B4F /* View+ConditionalModifier.swift in Sources */,
+				D21987822D099A0500E76B4F /* SettingsMenu.swift in Sources */,
+				D21987832D099A0500E76B4F /* View+Tile.swift in Sources */,
+				D21987842D099A0500E76B4F /* Analytics.swift in Sources */,
+				D21987852D099A0500E76B4F /* Separator.swift in Sources */,
+				D21987862D099A0500E76B4F /* Namespace.swift in Sources */,
+				D23AB78A2D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */,
+				D21987872D099A0500E76B4F /* TraitImageView_iOS.swift in Sources */,
+				D21987882D099A0500E76B4F /* NSImage+Png.swift in Sources */,
+				D21987892D099A0500E76B4F /* CloseButtonView.swift in Sources */,
+				D219878A2D099A0500E76B4F /* EditMoreMenu_iOS.swift in Sources */,
+				D219878B2D099A0500E76B4F /* TraitEditHUD.swift in Sources */,
+				D219878C2D099A0500E76B4F /* AppStateManager.ScreenType.swift in Sources */,
+				D219878D2D099A0500E76B4F /* String+Sha256.swift in Sources */,
+				D219878E2D099A0500E76B4F /* Onboarding.Dots.swift in Sources */,
+				D219878F2D099A0500E76B4F /* LayerPositionStepperView.swift in Sources */,
+				D21987902D099A0500E76B4F /* View+NSWindow.swift in Sources */,
+				D292F0422D1F551000214B9B /* SettingsModel.swift in Sources */,
+				D21987912D099A0500E76B4F /* AppStateManager_macOS.swift in Sources */,
+				D21987922D099A0500E76B4F /* UpsellButton.swift in Sources */,
+				D21987932D099A0500E76B4F /* CanvasViewModel_macOS.swift in Sources */,
+				D21987942D099A0500E76B4F /* NftMinter.swift in Sources */,
+				D21987952D099A0500E76B4F /* Array+Remove.swift in Sources */,
+				D21987962D099A0500E76B4F /* View+Placeholder.swift in Sources */,
+				D21987972D099A0500E76B4F /* View+Navigation_iOS.swift in Sources */,
+				D21987982D099A0500E76B4F /* Array+SafeAccess.swift in Sources */,
+				D21987992D099A0500E76B4F /* TraitsViewModel_iOS.swift in Sources */,
+				D23BD2402D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */,
+				D219879A2D099A0500E76B4F /* CanvasTraitImageView_iOS.swift in Sources */,
+				D219879B2D099A0500E76B4F /* NFTPortService.swift in Sources */,
+				D219879C2D099A0500E76B4F /* OddsSliderView_iOS.swift in Sources */,
+				D219879D2D099A0500E76B4F /* UpgradeButtonStyle.swift in Sources */,
+				D219879E2D099A0500E76B4F /* OddsSliderView.swift in Sources */,
+				D219879F2D099A0500E76B4F /* Image+Pallete.swift in Sources */,
+				D21987A02D099A0500E76B4F /* TraitView_macOS.swift in Sources */,
+				D21987A12D099A0500E76B4F /* TraitModel_macOS.swift in Sources */,
+				D21987A22D099A0500E76B4F /* LinearGradient+Pallete.swift in Sources */,
+				D21987A32D099A0500E76B4F /* KeychainItem.swift in Sources */,
+				D21987A42D099A0500E76B4F /* TraitsViewModel_macOS.swift in Sources */,
+				D21987A52D099A0500E76B4F /* MintButtonStyle.swift in Sources */,
+				D21987A62D099A0500E76B4F /* FeatureFlagObserver.swift in Sources */,
+				D21987A72D099A0500E76B4F /* NFTPort.Endpoint.swift in Sources */,
+				D21987A92D099A0500E76B4F /* NavigationManager.swift in Sources */,
+				D23BD24A2D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */,
+				D21987AA2D099A0500E76B4F /* CanvasView.swift in Sources */,
+				D21987AB2D099A0500E76B4F /* EditOption_iOS.swift in Sources */,
+				D21987AC2D099A0500E76B4F /* Mock.swift in Sources */,
+				D292F0472D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */,
+				D21987AD2D099A0500E76B4F /* NumberOfItemsInputView_macOS.swift in Sources */,
+				D21987AF2D099A0500E76B4F /* CancelExportButton.swift in Sources */,
+				D28B4C1D2D2067FF00353D82 /* MainView_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25E8E872911F44B00E5C3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25E8E882911F44B00E5C3E4 /* SettingsPanelView.swift in Sources */,
+				D2D471262D0B7BEA00E0AF73 /* OnboardingView.Page.swift in Sources */,
+				D25E8E892911F44B00E5C3E4 /* Color+Random.swift in Sources */,
+				D25E8E8A2911F44B00E5C3E4 /* AppVersion.swift in Sources */,
+				D25E8E8B2911F44B00E5C3E4 /* CanvasTraitImageView_macOS.swift in Sources */,
+				D22C6A2B2CFAFAEF0064B775 /* MetadataExporter_iOS.swift in Sources */,
+				D25E8E8C2911F44B00E5C3E4 /* MainView_iOS.swift in Sources */,
+				D25E8E8D2911F44B00E5C3E4 /* Binding+Optional.swift in Sources */,
+				D292F0402D1F551000214B9B /* SettingsModel.swift in Sources */,
+				D25E8E8E2911F44B00E5C3E4 /* NumberOfItemsInputView_iOS.swift in Sources */,
+				D25E8E8F2911F44B00E5C3E4 /* ImagePickerButtonStyle.swift in Sources */,
+				D29E1C702CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift in Sources */,
+				D26220C82CF11EE20087BCA8 /* String+Sha256.swift in Sources */,
+				D28B4C192D20499800353D82 /* PhoneButton.swift in Sources */,
+				D2098B0A2CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift in Sources */,
+				D25E8E902911F44B00E5C3E4 /* NSImage+CGImage.swift in Sources */,
+				D25E8E912911F44B00E5C3E4 /* Color+Palette.swift in Sources */,
+				D2CD6D5B2CD60EF1005589CE /* MagnifyMenuView.swift in Sources */,
+				D29E1CA32CCEA94600C6AB1D /* TraitImageView_macOS.swift in Sources */,
+				D23BD2502D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */,
+				D26F964329C732E5003051C0 /* DropHandler.swift in Sources */,
+				D25E8E922911F44B00E5C3E4 /* ImagesGridView_macOS.swift in Sources */,
+				D20DF8CE2CDBE30F00BBE4DF /* UIView+Rotate.swift in Sources */,
+				D21987192D09836600E76B4F /* UserDefaults+CustomObject.swift in Sources */,
+				D25E8E932911F44B00E5C3E4 /* ImagePickerView.swift in Sources */,
+				D26220CD2CF136150087BCA8 /* OnboardingView_iOS.swift in Sources */,
+				D2AB32382CEF018400FA8C4F /* User.swift in Sources */,
+				D28319A82CC61CFF00EC041C /* URL+Filename.swift in Sources */,
+				D26220BD2CF114880087BCA8 /* KeychainItem.swift in Sources */,
+				D25E8E942911F44B00E5C3E4 /* AddTraitButton.swift in Sources */,
+				D2C43F1A29FFFA86005CC925 /* NFTPort.Error.swift in Sources */,
+				D25E8E952911F44B00E5C3E4 /* TraitsPanelView_macOS.swift in Sources */,
+				D25E8E962911F44B00E5C3E4 /* TraitGenerator.swift in Sources */,
+				D26446342CC3738B003249DC /* UIApplication+Window.swift in Sources */,
+				D2A0B7092CE008B8002419A0 /* TraitEditHUD.swift in Sources */,
+				D28B4C1E2D2067FF00353D82 /* MainView_macOS.swift in Sources */,
+				D26220C62CF11EB90087BCA8 /* String+Nonce.swift in Sources */,
+				D25E8E972911F44B00E5C3E4 /* Image+SFSymbols.swift in Sources */,
+				D25E8E992911F44B00E5C3E4 /* BigActionButtonStyle.swift in Sources */,
+				D25E8E9A2911F44B00E5C3E4 /* LootBoxApp.swift in Sources */,
+				D20BB4FB2912BDC600BC9A24 /* UpgradeButtonView.swift in Sources */,
+				D2C43F1D29FFFED5005CC925 /* Logger.swift in Sources */,
+				D20B95422CFE19840082A547 /* UpsellButton.swift in Sources */,
+				D2C43F1729FFFA08005CC925 /* NFTPort.Response.swift in Sources */,
+				D2AB324F2CEF178600FA8C4F /* Separator.swift in Sources */,
+				D25E8E9B2911F44B00E5C3E4 /* Error+Domain.swift in Sources */,
+				D26220DA2CF141660087BCA8 /* Onboarding.Dots.swift in Sources */,
+				D25E8E9C2911F44B00E5C3E4 /* Font+Pallete.swift in Sources */,
+				D2AB32302CEF012E00FA8C4F /* NavigationManager.swift in Sources */,
+				D25E8E9D2911F44B00E5C3E4 /* ImageViewModel_macOS.swift in Sources */,
+				D2C71F6B2CF5060400BE23A3 /* SubscriptionService_iOS.swift in Sources */,
+				D2BFEAF72CD3612E004E4557 /* OddsSliderView_iOS.swift in Sources */,
+				D26220DD2CF143860087BCA8 /* ContentView_iOS.swift in Sources */,
+				D25E8E9F2911F44B00E5C3E4 /* View+ConditionalModifier.swift in Sources */,
+				D29508BD2A1E952800CE562F /* Web3Utils.swift in Sources */,
+				D26220E02CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift in Sources */,
+				D23BD24B2D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */,
+				D2D3446F29BBA2AA003D8E66 /* Analytics.swift in Sources */,
+				D26220D12CF136510087BCA8 /* OnboardingView.PageView_iOS.swift in Sources */,
+				D25E8EA02911F44B00E5C3E4 /* NSImage+Png.swift in Sources */,
+				D25E8EA12911F44B00E5C3E4 /* CloseButtonView.swift in Sources */,
+				D21987E32D09A7FD00E76B4F /* BasicButton.swift in Sources */,
+				D29E1C8F2CCE4AA900C6AB1D /* TraitModel_iOS.swift in Sources */,
+				D2CD6D6A2CD658E3005589CE /* SettingsMenu.swift in Sources */,
+				D25E8EA22911F44B00E5C3E4 /* LayerPositionStepperView.swift in Sources */,
+				D2E041452D09BB6500C01299 /* AppAlert.swift in Sources */,
+				D25E8EA32911F44B00E5C3E4 /* View+NSWindow.swift in Sources */,
+				D26F964229C732DC003051C0 /* ReorderButton.swift in Sources */,
+				D29508B32A1E84E200CE562F /* NFTMetadata.swift in Sources */,
+				D2AB324A2CEF136000FA8C4F /* Color+Hex.swift in Sources */,
+				D25E8EA42911F44B00E5C3E4 /* AppStateManager_macOS.swift in Sources */,
+				D2E985D12CFB23650036D2E4 /* View+Placeholder.swift in Sources */,
+				D2491E152F7C28050041BB1A /* Bundle+Config.swift in Sources */,
+				D25E8EA52911F44B00E5C3E4 /* CanvasViewModel_macOS.swift in Sources */,
+				D2098B0E2CD6BA0A000D9D4A /* AppStateManager_iOS.swift in Sources */,
+				D25E8EA62911F44B00E5C3E4 /* Array+Remove.swift in Sources */,
+				D25E8EA72911F44B00E5C3E4 /* Array+SafeAccess.swift in Sources */,
+				D2C43F1129FFF843005CC925 /* NFTPortService.swift in Sources */,
+				D22C6A262CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift in Sources */,
+				D23AB78B2D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */,
+				D29E1C982CCE7E4700C6AB1D /* EditOption_iOS.swift in Sources */,
+				D2C43F202A0015FD005CC925 /* NftMinter.swift in Sources */,
+				D2A822B12CD4B5EE00294C56 /* ImageViewModel_iOS.swift in Sources */,
+				D24BE16B2D20B70C0046850F /* ResetRotationButton.swift in Sources */,
+				D2AB32342CEF016000FA8C4F /* AppStateManager.ScreenType.swift in Sources */,
+				D29E1C9F2CCEA55C00C6AB1D /* TraitImageView_iOS.swift in Sources */,
+				D23AB7812D3B98A60098F17D /* ContentView_macOS.swift in Sources */,
+				D20BB4FE2912BE6F00BC9A24 /* UpgradeButtonStyle.swift in Sources */,
+				D25E8EA92911F44B00E5C3E4 /* OddsSliderView.swift in Sources */,
+				D23BD2452D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */,
+				D29E1C962CCE75E600C6AB1D /* TraitsViewModel_iOS.swift in Sources */,
+				D2CD6D582CD60C69005589CE /* CanvasViewModel_iOS.swift in Sources */,
+				D23AB7862D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */,
+				D2263F922CC01E9100CF6CF4 /* CancelExportButton.swift in Sources */,
+				D2CD6D662CD65171005589CE /* EditMoreMenu_iOS.swift in Sources */,
+				D2CD6D622CD64F5C005589CE /* TraitSettingsMenu_iOS.swift in Sources */,
+				D2AB32522CEF17C200FA8C4F /* View+Navigation_iOS.swift in Sources */,
+				D292F0482D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */,
+				D29E1C6D2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift in Sources */,
+				D2AB32482CEF12CB00FA8C4F /* Image+Pallete.swift in Sources */,
+				D23AB7902D3BBA090098F17D /* UserDefaults+Key.swift in Sources */,
+				D23BD23E2D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */,
+				D25E8EAA2911F44B00E5C3E4 /* TraitView_macOS.swift in Sources */,
+				D25E8EAB2911F44B00E5C3E4 /* TraitModel_macOS.swift in Sources */,
+				D25E8EAC2911F44B00E5C3E4 /* TraitsViewModel_macOS.swift in Sources */,
+				D239B05D2A1EAF670039D2E9 /* MintButtonStyle.swift in Sources */,
+				D2AB32422CEF073800FA8C4F /* Namespace.swift in Sources */,
+				D25A8D0E2A1FE13C00BAFA82 /* FeatureFlagObserver.swift in Sources */,
+				D2C43F1429FFF927005CC925 /* NFTPort.Endpoint.swift in Sources */,
+				D235EBE52CE4197900966202 /* NftRenderer_macOS.swift in Sources */,
+				D2CD6D5F2CD62405005589CE /* View+Tile.swift in Sources */,
+				D29E1C9C2CCEA51500C6AB1D /* ImagesGridView_iOS.swift in Sources */,
+				D25E8EAE2911F44B00E5C3E4 /* CanvasView.swift in Sources */,
+				D25E8EAF2911F44B00E5C3E4 /* Mock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2616AB228E69AE000E70104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D245EED128E7474200448803 /* SettingsPanelView.swift in Sources */,
+				D29E1C8E2CCE4AA900C6AB1D /* TraitModel_iOS.swift in Sources */,
+				D20FFF1E29F59D5E0022ACA2 /* ReorderButton.swift in Sources */,
+				D245EEEF28E75E1E00448803 /* Color+Random.swift in Sources */,
+				D2AB32442CEF116400FA8C4F /* SignInButton.swift in Sources */,
+				D23AB78F2D3BBA090098F17D /* UserDefaults+Key.swift in Sources */,
+				D2263F8C2CC0156C00CF6CF4 /* NftRenderer_macOS.swift in Sources */,
+				D28B4C162D20499800353D82 /* PhoneButton.swift in Sources */,
+				D2D471242D0B7BEA00E0AF73 /* OnboardingView.Page.swift in Sources */,
+				D20DF8CF2CDBE30F00BBE4DF /* UIView+Rotate.swift in Sources */,
+				D25E8E1F2911F35200E5C3E4 /* AppVersion.swift in Sources */,
+				D2AB32372CEF018400FA8C4F /* User.swift in Sources */,
+				D2E041472D09BB6500C01299 /* AppAlert.swift in Sources */,
+				D245EEED28E7579100448803 /* CanvasTraitImageView_macOS.swift in Sources */,
+				D29E1CA22CCEA94600C6AB1D /* TraitImageView_macOS.swift in Sources */,
+				D26446332CC3738B003249DC /* UIApplication+Window.swift in Sources */,
+				D28319A12CC6178E00EC041C /* PhotosPickerView.swift in Sources */,
+				D2CD6D572CD60C69005589CE /* CanvasViewModel_iOS.swift in Sources */,
+				D23AB77E2D3B98A60098F17D /* ContentView_macOS.swift in Sources */,
+				D2616ABC28E69AE000E70104 /* MainView_iOS.swift in Sources */,
+				D2F0901828FD06A200AB5711 /* Binding+Optional.swift in Sources */,
+				D29E1C6E2CCC4E8F00C6AB1D /* TraitEditMenu_iOS.swift in Sources */,
+				D2F090232905210E00AB5711 /* NumberOfItemsInputView_iOS.swift in Sources */,
+				D26446362CC61063003249DC /* FilePickerView.swift in Sources */,
+				D2C71F6C2CF5060400BE23A3 /* SubscriptionService_iOS.swift in Sources */,
+				D2263F8E2CC0158D00CF6CF4 /* NftRenderer_iOS.swift in Sources */,
+				D23BD2442D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */,
+				D2098B0D2CD6BA0A000D9D4A /* AppStateManager_iOS.swift in Sources */,
+				D28319A72CC61CFF00EC041C /* URL+Filename.swift in Sources */,
+				D26220DC2CF143860087BCA8 /* ContentView_iOS.swift in Sources */,
+				D245EEFB28E77A9700448803 /* ImagePickerButtonStyle.swift in Sources */,
+				D2F0902E29054E2B00AB5711 /* NSImage+CGImage.swift in Sources */,
+				D20FFF1D29F59D1E0022ACA2 /* DropHandler.swift in Sources */,
+				D2491E142F7C28050041BB1A /* Bundle+Config.swift in Sources */,
+				D23BD24E2D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */,
+				D2807AAA2911B11C008E861E /* Color+Palette.swift in Sources */,
+				D2CD6D632CD64F5C005589CE /* TraitSettingsMenu_iOS.swift in Sources */,
+				D22C6A2C2CFAFAEF0064B775 /* MetadataExporter_iOS.swift in Sources */,
+				D2AB324B2CEF136000FA8C4F /* Color+Hex.swift in Sources */,
+				D2E3663328F5464F009C1981 /* ImagesGridView_macOS.swift in Sources */,
+				D245EEF928E779B500448803 /* ImagePickerView.swift in Sources */,
+				D2C43F1929FFFA86005CC925 /* NFTPort.Error.swift in Sources */,
+				D26220D02CF136510087BCA8 /* OnboardingView.PageView_iOS.swift in Sources */,
+				D26220C52CF11EB90087BCA8 /* String+Nonce.swift in Sources */,
+				D245EEE028E7488400448803 /* AddTraitButton.swift in Sources */,
+				D29508B42A1E916000CE562F /* NFTMetadata.swift in Sources */,
+				D29E1C9B2CCEA51500C6AB1D /* ImagesGridView_iOS.swift in Sources */,
+				D245EECD28E746FC00448803 /* TraitsPanelView_macOS.swift in Sources */,
+				D2F0902C29053C1A00AB5711 /* TraitGenerator.swift in Sources */,
+				D22C6A252CFAE62A0064B775 /* UIDevice+Convenience_iOS.swift in Sources */,
+				D23B4C0928E7842E00540103 /* Image+SFSymbols.swift in Sources */,
+				D245EEF628E7705600448803 /* BigActionButtonStyle.swift in Sources */,
+				D2CD6D5C2CD60EF1005589CE /* MagnifyMenuView.swift in Sources */,
+				D2616ABA28E69AE000E70104 /* LootBoxApp.swift in Sources */,
+				D2C43F1C29FFFED5005CC925 /* Logger.swift in Sources */,
+				D21987E12D09A7FD00E76B4F /* BasicButton.swift in Sources */,
+				D219871A2D09836600E76B4F /* UserDefaults+CustomObject.swift in Sources */,
+				D2A822B02CD4B5EE00294C56 /* ImageViewModel_iOS.swift in Sources */,
+				D26220CC2CF136150087BCA8 /* OnboardingView_iOS.swift in Sources */,
+				D2C43F1629FFFA08005CC925 /* NFTPort.Response.swift in Sources */,
+				D20BB4FA2912BDC600BC9A24 /* UpgradeButtonView.swift in Sources */,
+				D2807AAC2911C6E0008E861E /* Error+Domain.swift in Sources */,
+				D23AB7842D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */,
+				D245EEE628E7491000448803 /* Font+Pallete.swift in Sources */,
+				D245EEEB28E74DDD00448803 /* ImageViewModel_macOS.swift in Sources */,
+				D29508BC2A1E952800CE562F /* Web3Utils.swift in Sources */,
+				D24BE16A2D20B70C0046850F /* ResetRotationButton.swift in Sources */,
+				D204921828E79A28005B75DC /* View+ConditionalModifier.swift in Sources */,
+				D2CD6D6B2CD658E3005589CE /* SettingsMenu.swift in Sources */,
+				D2CD6D5E2CD62405005589CE /* View+Tile.swift in Sources */,
+				D2D3446E29BBA2AA003D8E66 /* Analytics.swift in Sources */,
+				D2AB32502CEF178600FA8C4F /* Separator.swift in Sources */,
+				D2AB32412CEF073800FA8C4F /* Namespace.swift in Sources */,
+				D23AB7892D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */,
+				D29E1CA02CCEA55C00C6AB1D /* TraitImageView_iOS.swift in Sources */,
+				D204921C28E7A0A2005B75DC /* NSImage+Png.swift in Sources */,
+				D23B4C0728E7839200540103 /* CloseButtonView.swift in Sources */,
+				D2CD6D672CD65171005589CE /* EditMoreMenu_iOS.swift in Sources */,
+				D2A0B70A2CE008B8002419A0 /* TraitEditHUD.swift in Sources */,
+				D2AB32352CEF016000FA8C4F /* AppStateManager.ScreenType.swift in Sources */,
+				D26220C92CF11EE20087BCA8 /* String+Sha256.swift in Sources */,
+				D26220D92CF141660087BCA8 /* Onboarding.Dots.swift in Sources */,
+				D245EEF428E764F400448803 /* LayerPositionStepperView.swift in Sources */,
+				D2F0901F29051EAB00AB5711 /* View+NSWindow.swift in Sources */,
+				D292F03F2D1F551000214B9B /* SettingsModel.swift in Sources */,
+				D245EED628E7479100448803 /* AppStateManager_macOS.swift in Sources */,
+				D20B95412CFE19840082A547 /* UpsellButton.swift in Sources */,
+				D22287BF28F3297F00296E0E /* CanvasViewModel_macOS.swift in Sources */,
+				D29508B52A1E918300CE562F /* NftMinter.swift in Sources */,
+				D22287BB28F2993A00296E0E /* Array+Remove.swift in Sources */,
+				D2E985D22CFB23650036D2E4 /* View+Placeholder.swift in Sources */,
+				D2AB32532CEF17C200FA8C4F /* View+Navigation_iOS.swift in Sources */,
+				D22287B728EFF40C00296E0E /* Array+SafeAccess.swift in Sources */,
+				D29E1C952CCE75E600C6AB1D /* TraitsViewModel_iOS.swift in Sources */,
+				D23BD2412D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */,
+				D29E1C712CCE3C9400C6AB1D /* CanvasTraitImageView_iOS.swift in Sources */,
+				D2C43F1029FFF843005CC925 /* NFTPortService.swift in Sources */,
+				D2BFEAF62CD3612E004E4557 /* OddsSliderView_iOS.swift in Sources */,
+				D20BB4FD2912BE6F00BC9A24 /* UpgradeButtonStyle.swift in Sources */,
+				D245EEDD28E7486B00448803 /* OddsSliderView.swift in Sources */,
+				D2AB32472CEF12CB00FA8C4F /* Image+Pallete.swift in Sources */,
+				D245EECF28E7470900448803 /* TraitView_macOS.swift in Sources */,
+				D245EEDB28E747F900448803 /* TraitModel_macOS.swift in Sources */,
+				D26220E12CF1DEFC0087BCA8 /* LinearGradient+Pallete.swift in Sources */,
+				D26220BC2CF114880087BCA8 /* KeychainItem.swift in Sources */,
+				D22287C128F32C9900296E0E /* TraitsViewModel_macOS.swift in Sources */,
+				D239B05C2A1EAF670039D2E9 /* MintButtonStyle.swift in Sources */,
+				D25A8D0D2A1FE13C00BAFA82 /* FeatureFlagObserver.swift in Sources */,
+				D2C43F1329FFF927005CC925 /* NFTPort.Endpoint.swift in Sources */,
+				D2AB322F2CEF012E00FA8C4F /* NavigationManager.swift in Sources */,
+				D23BD2492D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */,
+				D245EEC628E7466200448803 /* CanvasView.swift in Sources */,
+				D29E1C992CCE7E4700C6AB1D /* EditOption_iOS.swift in Sources */,
+				D245EEF228E75F5E00448803 /* Mock.swift in Sources */,
+				D292F0452D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */,
+				D2098B092CD6A66B000D9D4A /* NumberOfItemsInputView_macOS.swift in Sources */,
+				D2263F912CC01E9100CF6CF4 /* CancelExportButton.swift in Sources */,
+				D28B4C1C2D2067FF00353D82 /* MainView_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A9ED292D0B876D00350F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A9ED2A2D0B876D00350F3D /* SettingsPanelView.swift in Sources */,
+				D2A9ED2C2D0B876D00350F3D /* OnboardingView.Page.swift in Sources */,
+				D2A9ED2D2D0B876D00350F3D /* Color+Random.swift in Sources */,
+				D2A9ED2E2D0B876D00350F3D /* AppVersion.swift in Sources */,
+				D2A9ED2F2D0B876D00350F3D /* CanvasTraitImageView_macOS.swift in Sources */,
+				D2A9ED302D0B876D00350F3D /* MetadataExporter_iOS.swift in Sources */,
+				D2A9ED312D0B876D00350F3D /* MainView_iOS.swift in Sources */,
+				D2A9ED322D0B876D00350F3D /* Binding+Optional.swift in Sources */,
+				D292F0412D1F551000214B9B /* SettingsModel.swift in Sources */,
+				D2A9ED332D0B876D00350F3D /* NumberOfItemsInputView_iOS.swift in Sources */,
+				D2A9ED342D0B876D00350F3D /* ImagePickerButtonStyle.swift in Sources */,
+				D2A9ED352D0B876D00350F3D /* CanvasTraitImageView_iOS.swift in Sources */,
+				D2A9ED362D0B876D00350F3D /* String+Sha256.swift in Sources */,
+				D28B4C172D20499800353D82 /* PhoneButton.swift in Sources */,
+				D2A9ED382D0B876D00350F3D /* NumberOfItemsInputView_macOS.swift in Sources */,
+				D2A9ED392D0B876D00350F3D /* NSImage+CGImage.swift in Sources */,
+				D2A9ED3A2D0B876D00350F3D /* Color+Palette.swift in Sources */,
+				D2A9ED3B2D0B876D00350F3D /* MagnifyMenuView.swift in Sources */,
+				D2A9ED3C2D0B876D00350F3D /* TraitImageView_macOS.swift in Sources */,
+				D23BD2512D0DDE7D00A874B4 /* CGPointValueTransformer.swift in Sources */,
+				D2A9ED3D2D0B876D00350F3D /* DropHandler.swift in Sources */,
+				D2A9ED3E2D0B876D00350F3D /* ImagesGridView_macOS.swift in Sources */,
+				D2A9ED3F2D0B876D00350F3D /* UIView+Rotate.swift in Sources */,
+				D2A9ED402D0B876D00350F3D /* UserDefaults+CustomObject.swift in Sources */,
+				D2A9ED412D0B876D00350F3D /* ImagePickerView.swift in Sources */,
+				D2A9ED422D0B876D00350F3D /* OnboardingView_iOS.swift in Sources */,
+				D2A9ED432D0B876D00350F3D /* User.swift in Sources */,
+				D2A9ED442D0B876D00350F3D /* URL+Filename.swift in Sources */,
+				D2A9ED452D0B876D00350F3D /* KeychainItem.swift in Sources */,
+				D2A9ED462D0B876D00350F3D /* AddTraitButton.swift in Sources */,
+				D2A9ED472D0B876D00350F3D /* NFTPort.Error.swift in Sources */,
+				D2A9ED482D0B876D00350F3D /* TraitsPanelView_macOS.swift in Sources */,
+				D2A9ED492D0B876D00350F3D /* TraitGenerator.swift in Sources */,
+				D2A9ED4A2D0B876D00350F3D /* UIApplication+Window.swift in Sources */,
+				D2A9ED4B2D0B876D00350F3D /* TraitEditHUD.swift in Sources */,
+				D28B4C1F2D2067FF00353D82 /* MainView_macOS.swift in Sources */,
+				D2A9ED4C2D0B876D00350F3D /* String+Nonce.swift in Sources */,
+				D2A9ED4D2D0B876D00350F3D /* Image+SFSymbols.swift in Sources */,
+				D2A9ED4E2D0B876D00350F3D /* BigActionButtonStyle.swift in Sources */,
+				D2A9ED4F2D0B876D00350F3D /* LootBoxApp.swift in Sources */,
+				D2A9ED502D0B876D00350F3D /* UpgradeButtonView.swift in Sources */,
+				D2A9ED512D0B876D00350F3D /* Logger.swift in Sources */,
+				D2A9ED532D0B876D00350F3D /* UpsellButton.swift in Sources */,
+				D2A9ED542D0B876D00350F3D /* NFTPort.Response.swift in Sources */,
+				D2A9ED552D0B876D00350F3D /* Separator.swift in Sources */,
+				D2A9ED562D0B876D00350F3D /* Error+Domain.swift in Sources */,
+				D2A9ED572D0B876D00350F3D /* Onboarding.Dots.swift in Sources */,
+				D2A9ED582D0B876D00350F3D /* Font+Pallete.swift in Sources */,
+				D2A9ED592D0B876D00350F3D /* NavigationManager.swift in Sources */,
+				D2A9ED5A2D0B876D00350F3D /* ImageViewModel_macOS.swift in Sources */,
+				D2A9ED5B2D0B876D00350F3D /* SubscriptionService_iOS.swift in Sources */,
+				D2A9ED5C2D0B876D00350F3D /* OddsSliderView_iOS.swift in Sources */,
+				D2A9ED5D2D0B876D00350F3D /* ContentView_iOS.swift in Sources */,
+				D2A9ED5E2D0B876D00350F3D /* View+ConditionalModifier.swift in Sources */,
+				D2A9ED5F2D0B876D00350F3D /* Web3Utils.swift in Sources */,
+				D2A9ED602D0B876D00350F3D /* LinearGradient+Pallete.swift in Sources */,
+				D23BD24C2D0DDADE00A874B4 /* UIImageValueTransformer.swift in Sources */,
+				D2A9ED612D0B876D00350F3D /* Analytics.swift in Sources */,
+				D2A9ED622D0B876D00350F3D /* OnboardingView.PageView_iOS.swift in Sources */,
+				D2A9ED632D0B876D00350F3D /* NSImage+Png.swift in Sources */,
+				D2A9ED642D0B876D00350F3D /* CloseButtonView.swift in Sources */,
+				D2A9ED652D0B876D00350F3D /* BasicButton.swift in Sources */,
+				D2A9ED662D0B876D00350F3D /* TraitModel_iOS.swift in Sources */,
+				D2A9ED672D0B876D00350F3D /* SettingsMenu.swift in Sources */,
+				D2A9ED682D0B876D00350F3D /* LayerPositionStepperView.swift in Sources */,
+				D2A9ED692D0B876D00350F3D /* AppAlert.swift in Sources */,
+				D2A9ED6A2D0B876D00350F3D /* View+NSWindow.swift in Sources */,
+				D2A9ED6B2D0B876D00350F3D /* ReorderButton.swift in Sources */,
+				D2A9ED6D2D0B876D00350F3D /* NFTMetadata.swift in Sources */,
+				D2A9ED6E2D0B876D00350F3D /* Color+Hex.swift in Sources */,
+				D2A9ED6F2D0B876D00350F3D /* AppStateManager_macOS.swift in Sources */,
+				D2A9ED702D0B876D00350F3D /* View+Placeholder.swift in Sources */,
+				D2491E132F7C28050041BB1A /* Bundle+Config.swift in Sources */,
+				D2A9ED712D0B876D00350F3D /* CanvasViewModel_macOS.swift in Sources */,
+				D2A9ED722D0B876D00350F3D /* AppStateManager_iOS.swift in Sources */,
+				D2A9ED732D0B876D00350F3D /* Array+Remove.swift in Sources */,
+				D2A9ED742D0B876D00350F3D /* Array+SafeAccess.swift in Sources */,
+				D2A9ED752D0B876D00350F3D /* NFTPortService.swift in Sources */,
+				D2A9ED772D0B876D00350F3D /* UIDevice+Convenience_iOS.swift in Sources */,
+				D23AB78C2D3B9AE70098F17D /* OnboardingView.PageView_macOS.swift in Sources */,
+				D2A9ED782D0B876D00350F3D /* EditOption_iOS.swift in Sources */,
+				D2A9ED792D0B876D00350F3D /* NftMinter.swift in Sources */,
+				D2A9ED7A2D0B876D00350F3D /* ImageViewModel_iOS.swift in Sources */,
+				D24BE16C2D20B70C0046850F /* ResetRotationButton.swift in Sources */,
+				D2A9ED7B2D0B876D00350F3D /* AppStateManager.ScreenType.swift in Sources */,
+				D2A9ED7C2D0B876D00350F3D /* TraitImageView_iOS.swift in Sources */,
+				D23AB7802D3B98A60098F17D /* ContentView_macOS.swift in Sources */,
+				D2A9ED7D2D0B876D00350F3D /* UpgradeButtonStyle.swift in Sources */,
+				D2A9ED7E2D0B876D00350F3D /* OddsSliderView.swift in Sources */,
+				D23BD2462D0DDA2900A874B4 /* CGRectValueTransformer.swift in Sources */,
+				D2A9ED7F2D0B876D00350F3D /* TraitsViewModel_iOS.swift in Sources */,
+				D2A9ED802D0B876D00350F3D /* CanvasViewModel_iOS.swift in Sources */,
+				D23AB7872D3B98FF0098F17D /* OnboardingView_macOS.swift in Sources */,
+				D2A9ED822D0B876D00350F3D /* CancelExportButton.swift in Sources */,
+				D2A9ED832D0B876D00350F3D /* EditMoreMenu_iOS.swift in Sources */,
+				D2A9ED842D0B876D00350F3D /* TraitSettingsMenu_iOS.swift in Sources */,
+				D2A9ED852D0B876D00350F3D /* View+Navigation_iOS.swift in Sources */,
+				D292F0462D1F5D3800214B9B /* AppUiModel_macOS.swift in Sources */,
+				D2A9ED862D0B876D00350F3D /* TraitEditMenu_iOS.swift in Sources */,
+				D2A9ED872D0B876D00350F3D /* Image+Pallete.swift in Sources */,
+				D23AB7922D3BBA090098F17D /* UserDefaults+Key.swift in Sources */,
+				D23BD23F2D0DD62300A874B4 /* UIColorValueTransformer.swift in Sources */,
+				D2A9ED882D0B876D00350F3D /* TraitView_macOS.swift in Sources */,
+				D2A9ED892D0B876D00350F3D /* TraitModel_macOS.swift in Sources */,
+				D2A9ED8A2D0B876D00350F3D /* TraitsViewModel_macOS.swift in Sources */,
+				D2A9ED8B2D0B876D00350F3D /* MintButtonStyle.swift in Sources */,
+				D2A9ED8C2D0B876D00350F3D /* Namespace.swift in Sources */,
+				D2A9ED8D2D0B876D00350F3D /* FeatureFlagObserver.swift in Sources */,
+				D2A9ED8E2D0B876D00350F3D /* NFTPort.Endpoint.swift in Sources */,
+				D2A9ED8F2D0B876D00350F3D /* NftRenderer_macOS.swift in Sources */,
+				D2A9ED902D0B876D00350F3D /* View+Tile.swift in Sources */,
+				D2A9ED912D0B876D00350F3D /* ImagesGridView_iOS.swift in Sources */,
+				D2A9ED922D0B876D00350F3D /* CanvasView.swift in Sources */,
+				D2A9ED932D0B876D00350F3D /* Mock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D21987DC2D099A0500E76B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFree;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 26;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenNFT-Basic version";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-D \"DEV\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21987DD2D099A0500E76B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFree;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 26;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenNFT-Basic version";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-D \"DEV\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D25E8EB62911F44B00E5C3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 30;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Pro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenNFT-PRO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.0.2;
+				OTHER_SWIFT_FLAGS = "-D \"PRO\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D25E8EB72911F44B00E5C3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 30;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Pro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenNFT-PRO";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.0.2;
+				OTHER_SWIFT_FLAGS = "-D \"PRO\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2616AC328E69AE100E70104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2491E0F2F7C26B00041BB1A /* Settings-Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2616AC428E69AE100E70104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2491E102F7C276F0041BB1A /* Settings-Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2616AC628E69AE100E70104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFree;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 37;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OpenNFT;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.5.2;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2616AC728E69AE100E70104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFree;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 37;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OpenNFT;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to photos in order to export your art.";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.5.2;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2A9ED9D2D0B876D00350F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 24;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Pro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenNFT-Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.4.4;
+				OTHER_SWIFT_FLAGS = "-D \"PRO\" -D \"DEV\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2A9ED9E2D0B876D00350F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LootBox/LootBox.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 24;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LootBox/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LootBox/Configuration/OpenNFT-Pro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenNFT-Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.4.4;
+				OTHER_SWIFT_FLAGS = "-D \"PRO\" -D \"DEV\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21987DB2D099A0500E76B4F /* Build configuration list for PBXNativeTarget "LootBox-DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21987DC2D099A0500E76B4F /* Debug */,
+				D21987DD2D099A0500E76B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25E8EB52911F44B00E5C3E4 /* Build configuration list for PBXNativeTarget "OpenNFT-PRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25E8EB62911F44B00E5C3E4 /* Debug */,
+				D25E8EB72911F44B00E5C3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2616AB128E69AE000E70104 /* Build configuration list for PBXProject "LootBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2616AC328E69AE100E70104 /* Debug */,
+				D2616AC428E69AE100E70104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2616AC528E69AE100E70104 /* Build configuration list for PBXNativeTarget "OpenNFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2616AC628E69AE100E70104 /* Debug */,
+				D2616AC728E69AE100E70104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A9ED9C2D0B876D00350F3D /* Build configuration list for PBXNativeTarget "LootBoxPRO-DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A9ED9D2D0B876D00350F3D /* Debug */,
+				D2A9ED9E2D0B876D00350F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D219871D2D099A0500E76B4F /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D219873D2D099A0500E76B4F /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D21987422D099A0500E76B4F /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+		D26864792D23F331006035A5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D2A9ED262D0B876D00350F3D /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D2B3BFA82CFAFD5500CF9656 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+		D2D3446729BBA107003D8E66 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D219871C2D099A0500E76B4F /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D219871D2D099A0500E76B4F /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		D219873C2D099A0500E76B4F /* ReceiptParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D219873D2D099A0500E76B4F /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = ReceiptParser;
+		};
+		D219873E2D099A0500E76B4F /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D219873D2D099A0500E76B4F /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		D219873F2D099A0500E76B4F /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D219873D2D099A0500E76B4F /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		D21987412D099A0500E76B4F /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D21987422D099A0500E76B4F /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		D268647A2D23F331006035A5 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D26864792D23F331006035A5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		D268647C2D23F331006035A5 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D26864792D23F331006035A5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		D2A9ED252D0B876D00350F3D /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2A9ED262D0B876D00350F3D /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		D2B3BFA92CFAFD5500CF9656 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2B3BFA82CFAFD5500CF9656 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		D2D3446829BBA107003D8E66 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2D3446729BBA107003D8E66 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		D2D3446A29BBA11D003D8E66 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2D3446729BBA107003D8E66 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D2616AAE28E69AE000E70104 /* Project object */;
+}

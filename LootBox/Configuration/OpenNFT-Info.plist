@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.149091898024-n73h5ikjm8lt70n20d4o434cfg2upsnb</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>149091898024-n73h5ikjm8lt70n20d4o434cfg2upsnb.apps.googleusercontent.com</string>
+	<key>UIDesignRequiresCompatibility</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchScreenBackgroundColor</string>
+		<key>UIImageName</key>
+		<string>launch-icon</string>
+	</dict>
+    <key>REVENUE_CAT_API_KEY</key>
+    <string>$(REVENUE_CAT_API_KEY)</string>
+    <key>LAUNCH_DARKLY_API_KEY</key>
+    <string>$(LAUNCH_DARKLY_API_KEY)</string>
+    <key>MINTER_API_KEY</key>
+    <string>$(MINTER_API_KEY)</string>
+    <key>MIXPANEL_MACOS_API_KEY</key>
+    <string>$(MIXPANEL_MACOS_API_KEY)</string>
+    <key>MIXPANEL_iOS_API_KEY</key>
+    <string>$(MIXPANEL_iOS_API_KEY)</string>
+</dict>
+</plist>

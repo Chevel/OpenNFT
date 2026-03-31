@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  LootBox
+
+  Created by Matej on 01/11/2022.
+  
+*/
+
+// MARK: - Dialog
+
+"dialog_select_images" = "Выберите изображения";
+"dialog_save_to" = "Сохраните NFT в:";
+
+// MARK: - Trait
+
+"trait_settings_odds" = "Шансы";
+"trait_settings_add_trait" = "Добавить черту";
+"trait_settings_choose_images" = "Выбрать изображения...";
+"trait_settings_name_title" = "Название черты:";
+
+// MARK: - MacOS Toolbar
+
+"toolbar_window_reopen_title" = "Снова открыть главное окно";
+
+// MARK: - Settings
+
+"settings_upgrade_button_title" = "ОБНОВИ СЕЙЧАС";
+"settings_layer_position" = "Положение слоя:";
+"settings_number_of_nfts" = "Количество NFT:";
+"settings_nft_name" = "Название коллекции:";
+"settings_width" = "Ширина:";
+"settings_height" = "Высота:";
+"settings_background_color" = "Фоновый цвет";
+
+// MARK: - Share dialog message
+
+"share_dialog_title" = "Создайте свой собственный NFT!";
+"share_dialog_message" = "Доступно в AppStore:";
+
+// MARK: - Export
+
+"button_title_export" = "Экспорт";
+"message_exporting" = "Экспорт:";
+
+// MARK: - Alert
+
+"alert_title_succes" = "Успех. Обновите до PRO, чтобы экспортировать больше NFT и удалить водяной знак!";
+"alert_title_succes_pro" = "Успех. Ваш NFT готов. Наслаждаться :)";
+
+// MARK: - Generic
+
+"generic_error_title" = "Что-то пошло не так.";
+"generic_ok" = "ХОРОШО";
+"generic_cancel" = "ОТМЕНИТЬ";
+"generic_untitled" = "Без названия";
+
+// MARK: - Watermark
+
+"watermark_text" = "Сделано с OpenNFT";
