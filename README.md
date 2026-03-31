@@ -1,14 +1,11 @@
 # OpenNFT
 
-
-[![logo](https://github.com/user-attachments/assets/61d3311a-ca1c-4a3b-806b-1c8815e007ab)](https://apps.apple.com/si/app/nft-asset-art-maker-opennft/id6443635354)
-
+[![appstoreLogo](https://github.com/user-attachments/assets/1a62c67e-2370-4c79-94d3-13dcdcf68bed)](https://apps.apple.com/si/app/nft-asset-art-maker-opennft/id6443635354)
 
 ![Badge](https://img.shields.io/badge/%EF%A3%BF%20OpenNFT-1.5.2-blue?style=plastic)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-![2](https://github.com/user-attachments/assets/d2a88660-b8c7-48e1-9fc7-584660a4b15e)
-
+![1](https://github.com/user-attachments/assets/9a11610f-3290-42cc-b74a-ae35765218f2)
 
 
 
@@ -24,7 +21,8 @@ It generates images based on the traits and their odds set along with a [EIP-115
 
 ### Traits
 
-![3](https://github.com/user-attachments/assets/42a083d2-0176-4112-aeeb-655f0f8923a4)
+![2](https://github.com/user-attachments/assets/511c0656-0719-499f-bad9-f506bc69bfce)
+
 
 A trait is 1 piece of an NFT assets.
 
@@ -47,7 +45,7 @@ Options
 
 ### Editor
 
-<img width="1835" height="1191" alt="Screenshot 2026-03-28 at 15 10 26" src="https://github.com/user-attachments/assets/7f661cde-2aeb-4777-a515-02b1a3cc2e99" />
+<img width="1835" height="1191" alt="3" src="https://github.com/user-attachments/assets/a60998d0-3a36-4dc4-bdbf-3238020a8c7a" />
 
 * Full-featured image composer!
 * You can add as many traits as your memory can handle!
@@ -59,7 +57,8 @@ Options
 
 ### Export
 
-![4](https://github.com/user-attachments/assets/03ad0ef7-b150-4267-97d3-90355119f125)
+![4](https://github.com/user-attachments/assets/7e9c4324-f2c5-40e3-9987-153140ff4761)
+
 
 * Up to Int MAX assets export supported
 * Custom resolution
@@ -78,7 +77,7 @@ The architecture follows vanilla Apple guidelines and API best practises and use
 
 Thanks!
 
-<img width="1024" height="1024" alt="openNFT 001" src="https://github.com/user-attachments/assets/12c959de-4dcf-4d82-99f7-eaffa78ac9ae" />
+<img width="1024" height="1024" alt="5" src="https://github.com/user-attachments/assets/5ca008f2-d8a5-4f8f-a375-9abd009c185f" />
 
 
 ## Building the project
@@ -90,3 +89,11 @@ Here are the steps:
 
 1. Clone the repo
 2. Run
+
+The project has integration for the following service
+* LaunchDarkly
+* RevenueCat
+* Mixpanel
+* NFTPort
+
+The API keys are read from the .xcconfig file and are redacted.
